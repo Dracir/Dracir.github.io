@@ -15,8 +15,8 @@ author: Richard Rail
 
 navbar-links:
   News & Blog: "blog"
-  Game Jams: "gamejams"
   Projects: "projects"
+  Game Jams: "gamejams"
   About Me: "aboutme"
 
 # --- Logo --- #

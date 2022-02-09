@@ -6,20 +6,20 @@ layout: page
 
 {% assign gamejams = paginator.gamejams | default: site.gamejams %}
 
-<div class="row row-cols-3 row-cols-md-2">
+<div class="row">
 	{% for game in gamejams %}
-		<div class="col mb-4"> <div class="card h-100">
+		<div class="col-md-4 mt-3"> <div class="card h-100">
 		
 			<!-- Thumbnail -->
 			<!-- TODO add the gray effect from post-image -->
 			{% if game.thumbnail-img %}
-				<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-					<img src="{{ game.thumbnail-img | absolute_url }}" alt="Post thumbnail">
+				<a href="{{ game.url | absolute_url }}" aria-label="Thumbnail">
+					<img src="{{ game.thumbnail-img | absolute_url }}" class="card-img-top" alt="Post thumbnail">
 				</a>
 			{% endif %}
 		
 			<div class="card-body">
-				<a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+				<a href="{{ game.url | absolute_url }}" aria-label="Thumbnail">
 					<h5 class="card-title">{{ game.title | strip_html }}</h5>
 				</a>
 				{% if game.salePitch%}
@@ -32,6 +32,7 @@ layout: page
 			</div>
 				
 			{% if site.feed_show_tags != false and game.tags.size > 0 %}
+				<hr />
 				<div class="card-body">
 					<span>Tags:</span>
 					{% for tag in game.tags %}
@@ -43,7 +44,7 @@ layout: page
   			<div class="card-footer bg-transparent ">
         		<a href="{{ game.url | absolute_url }}" class="post-read-more">Read&nbsp;More&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
 			</div>
-		</div> </div>
+		</div> </div> 
 	{% endfor %}
 </div>
 
