@@ -1,0 +1,11 @@
+---
+layout: page
+title: Hello World
+---
+
+Welcome to my little corner of the internet. This website shows up some of my projects. 
+Feel free to look around, there might be a gif or two you might like.
+
+
+You can know a bit more <a href="aboutme">About</a>. There is a section for my <a href="gamejams">Projects</a> and <a href="gamejams">Game Jams</a>. I might maintain a page for <a href="blog">News and Blog</a> stuff.
+
