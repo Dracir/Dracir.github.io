@@ -1,0 +1,37 @@
+<div class="col-md-4 mb-3"> <div class="card h-100">
+
+	<!-- Thumbnail -->
+	<!-- TODO add the gray effect from post-image -->
+	{% if game.thumbnail-img %}
+		<a href="{{ game.url | absolute_url }}" aria-label="Thumbnail">
+			<img src="{{"gamejams/img/" | absolute_url}}{{ game.thumbnail-img}}" class="card-img-top thumbnail ratio-16x9" alt="Post thumbnail">
+		</a>
+	{% endif %}
+
+	<div class="card-body">
+		<a href="{{ game.url | absolute_url }}" aria-label="Thumbnail">
+			<h5 class="card-title">{{ game.title | strip_html }}</h5>
+		</a>
+		{% if game.salePitch%}
+			<p class="card-text">{{game.salePitch}}</p>
+			<hr>
+		{% endif %}
+		{% if game.shortdescription%}
+			<p class="card-text">{{game.shortdescription}}</p>
+		{% endif %}
+	</div>
+		
+	{% if site.feed_show_tags != false and game.tags.size > 0 %}
+		<hr />
+		<div class="card-body">
+			<span>Tags:</span>
+			{% for tag in game.tags %}
+			<a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+			{% endfor %}
+		</div>
+	{% endif %}
+	
+	<div class="card-footer bg-transparent ">
+		<a href="{{ game.url | absolute_url }}" class="post-read-more">Read&nbsp;More&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
+	</div>
+</div> </div> 

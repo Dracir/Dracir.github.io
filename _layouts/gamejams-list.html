@@ -1,0 +1,14 @@
+---
+layout: page
+---
+{{ content }}
+
+{% assign gamejams = site.gamejams | where : "visibily", "main"%}
+
+<div class="row">
+	{% for game in gamejams reversed %}
+		{% include gamejam-card.html game= game%}
+	{% endfor %}
+</div>
+
+<a href="/gamejamsarchive">See all my game jams</a>
