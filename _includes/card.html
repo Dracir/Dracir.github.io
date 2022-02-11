@@ -1,0 +1,24 @@
+<div class="col-md-4 mb-4"> <div class="card h-100 card-light">
+
+	<div class="card-header text-center">
+		<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
+			<h5>{{ include.title | strip_html }}</h5>
+		</a>
+	</div>
+	
+	<!-- Thumbnail -->
+	{% if include.thumbnail %}
+		<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
+			<img src="{{ include.thumbnail}}" class="card-img-top thumbnail ratio-16x9" alt="Post thumbnail">
+		</a>
+	{% endif %}
+
+
+	<div class="card-body">
+		<p class="card-text text-justify">{{include.description}}</p>
+	</div>
+		
+	<div class="card-footer bg-transparent">
+		<a href="{{ include.url | absolute_url }}" class="post-read-more float-right">Read&nbsp;More&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
+	</div>
+</div> </div> 

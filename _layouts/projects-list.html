@@ -1,0 +1,15 @@
+---
+layout: page
+---
+{{ content }}
+
+{% assign projects = site.gamejams%}
+
+<div class="row">
+	{% for project in projects reversed %}
+		{% assign thumbnailURL = "gamejams/img/" | absolute_url | append: project.thumbnail-img %}
+		{% include card.html 
+			title=project.title url=project.url thumbnail=thumbnailURL description=project.shortdescription
+		%}
+	{% endfor %}
+</div>
