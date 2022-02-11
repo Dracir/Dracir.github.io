@@ -257,4 +257,6 @@ plugins:
 collections:
   gamejams:
     output: true
+  projects:
+    output: true
 
