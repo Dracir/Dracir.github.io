@@ -109,12 +109,8 @@
 <lastmod>2021-08-14T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://192.168.0.11/2020-02-26-flake-it-till-you-make-it/</loc>
-<lastmod>2020-02-26T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://192.168.0.11/2020-02-28-test-markdown/</loc>
-<lastmod>2020-02-28T00:00:00-05:00</lastmod>
+<loc>http://192.168.0.11/2022-02-11-init/</loc>
+<lastmod>2022-02-11T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://192.168.0.11/aboutme/</loc>
@@ -130,6 +126,9 @@
 </url>
 <url>
 <loc>http://192.168.0.11/</loc>
+</url>
+<url>
+<loc>http://192.168.0.11/projects/</loc>
 </url>
 <url>
 <loc>http://192.168.0.11/tags/</loc>
