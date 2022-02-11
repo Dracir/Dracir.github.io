@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: Global Game Jam 2016
 theme: Ritual
 tools: [Unity, PyxelEdit]
-my-contribution: [code, gamedesign, sound]
-team: [Magicolo-z, Richard Rail]
+my-contribution: [Code, GameDesign, Sound]
+team: 
 visibily: archive
 ---
 

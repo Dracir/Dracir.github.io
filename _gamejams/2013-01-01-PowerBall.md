@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: You Only Get One
 tools: [Unity, Paint.net]
-my-contribution: [gamedesign, code]
-team: [Oliver Rayé-Lalonde, Richard Rail]
+my-contribution: [Code, GameDesign]
+team: 
 visibily: archive
 ---
 

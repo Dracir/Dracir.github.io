@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: MO Jam 2018
 theme: Truth or Dare
 tools: [Unity]
-my-contribution: [code, gamedesign, sound, ui, writing]
-team: [Kevin McNally-Gagnon, Richard Rail]
+my-contribution: [Code, GameDesign, Sound, UI, Writing]
+team: 
 visibily: main
 ---
 

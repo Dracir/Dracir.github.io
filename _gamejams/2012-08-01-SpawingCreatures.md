@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: Evolution
 tools: [C#, Paint.net]
-my-contribution: [gamedesign, code, art]
-team: [Eric Goulet, Hugo Laplante, Nicolas Alie, Richard Rail]
+my-contribution: [Art, Code, GameDesign]
+team: 
 visibily: archive
 ---
 

@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity, PyxelEdit]
-my-contribution: [gamedesign, code]
-team: [Magicolo-z, Richard Rail, Travis Henry Martin]
+my-contribution: [Code, Gamedesign]
+team: 
 visibily: archive
 ---
 

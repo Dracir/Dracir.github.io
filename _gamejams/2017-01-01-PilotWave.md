@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: Global Game Jam 2018 (mtljam)
 theme: Wave
 tools: [Unity, PyxelEdit]
-my-contribution: [art, code, gamedesign, shader, sound]
-team: [Kevin McNally-Gagnon, Travis Henry Martin, Richard Rail]
+my-contribution: [Art, Code, GameDesign, Shader, Sound]
+team: 
 visibily: main
 ---
 

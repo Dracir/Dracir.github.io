@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: Wowie Jam 3.0
 theme: FAILURE IS PROGRESS
 tools: [Unity, PyxelEdit]
-my-contribution: [art, gamedesign, ui]
-team: [Richard Rail]
+my-contribution: [Art, GameDesign, UI]
+team: 
 visibily: main
 ---
 

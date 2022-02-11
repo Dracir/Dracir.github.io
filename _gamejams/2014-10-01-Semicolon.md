@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity]
-my-contribution: [gamedesign, code]
-team: [Kevin, Richard Rail, Travis, Oliver]
+my-contribution: [Code, GameDesign]
+team: 
 visibily: archive
 ---
 

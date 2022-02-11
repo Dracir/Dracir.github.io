@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: The entire game in one screen
 tools: [Unity, PyxelEdit]
-my-contribution: [art, code, gamedesign, sound]
-team: [Richard Rail]
+my-contribution: [Art, Code, GameDesign, Sound]
+team: 
 visibily: archive
 ---
 

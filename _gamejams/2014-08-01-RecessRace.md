@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity]
-my-contribution: [code]
-team: [CannedGrapes, Richard Rail, Travis Henry Martin]
+my-contribution: [Code]
+team: 
 visibily: archive
 ---
 

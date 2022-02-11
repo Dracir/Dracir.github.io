@@ -6,13 +6,13 @@ shortdescription: After drawing many brique wall, I wanted to see if I could jus
 thumbnail-img: exp/ProceduralBriqueWall1.png
 tags: {{tags}}
 date: 2016-10-01
-duration: 48 hours
+duration: 
 project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity]
-my-contribution: [art, code]
-team: [Richard Rail]
+my-contribution: [Art, Code]
+team: 
 visibily: archive
 ---
 

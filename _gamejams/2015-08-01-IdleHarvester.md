@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: Growing
 tools: [Unity, PyxelEdit]
-my-contribution: [art, code, gamedesign, sound]
-team: [Richard Rail]
+my-contribution: [Art, Code, GameDesign, Sound]
+team: 
 visibily: archive
 ---
 

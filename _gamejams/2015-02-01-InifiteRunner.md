@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity, PyxelEdit]
-my-contribution: [gamedesign, art, code]
-team: [Kevin, Richard Rail, Travis, Oliver]
+my-contribution: [Art, Code, GameDesign]
+team: 
 visibily: archive
 ---
 

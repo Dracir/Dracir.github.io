@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: Ludum Dare 38
 theme: Running out of Power
 tools: [Unity, PyxelEdit]
-my-contribution: [art, code, gamedesign, sound, narrativedesign]
-team: [Richard Rail]
+my-contribution: [Art, Code, GameDesign, Sound, Narrative]
+team: 
 visibily: archive
 ---
 

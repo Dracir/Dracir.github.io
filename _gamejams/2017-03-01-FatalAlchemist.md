@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: Ottawa Game Jam 2017
 theme: What is done cannot be undone
 tools: [Unity]
-my-contribution: [code, gamedesign, modeling]
-team: [Alexandre Lessard, Félix Décari Nault, Jean-Sebastien Gervais, Luc Savard, Richard Rail, Sacha Ravenda]
+my-contribution: [Code, GameDesign, Modeling]
+team: 
 visibily: archive
 ---
 

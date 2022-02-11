@@ -11,3 +11,13 @@
     height: 15vw;
     object-fit: cover;
 }
+.card{
+	background-color:#F1F1F1;
+}
+.fa-stack{
+	color:rgb(64, 64, 64);
+}
+
+.card-header{
+	
+}

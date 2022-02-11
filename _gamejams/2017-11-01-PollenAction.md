@@ -6,13 +6,13 @@ shortdescription: For our FRC betabot 2017 team's strategic planning, I made a g
 thumbnail-img: exp/PollenActionThumbnail.png
 tags: {{tags}}
 date: 2017-11-01
-duration: 48 hours
+duration: 
 project-type: {{project-type}}
 event: FRC Betabots 2017
 theme: 
 tools: [Unity, PyxelEdit]
-my-contribution: [code]
-team: [Richard Rail]
+my-contribution: [Code]
+team: 
 visibily: main
 ---
 

@@ -11,7 +11,7 @@ body {
   font-size: 1.125rem;
   color: #404040;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #C8C6BC;
   
   overflow-wrap: break-word;
 }
@@ -40,11 +40,11 @@ h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
 a {
-  color: #008AFF;
+  color: #388697;
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #20A4F3;
 }
 blockquote {
   color: #808080;
@@ -76,12 +76,12 @@ hr.small {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #20A4F3;
 }
 ::selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #20A4F3;
 }
 img::selection {
   color: #fff;
@@ -116,8 +116,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #EAEAEA;
-  border-bottom: 1px solid #DDDDDD;
+  background-color: #2d2327;
+  border-bottom: 1px solid #171214;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
   -webkit-transition: padding .5s ease-in-out;
@@ -181,7 +181,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #404040;
+  color: #388697;
 }
 
 .navbar-toggler {
@@ -248,11 +248,11 @@ img {
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   white-space: normal;
   padding: 0.625rem;
-  background-color: #EAEAEA;
+  background-color: #2d2327;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
-  color: #404040;
+  color: #388697;
 }
 
 @media (min-width: 1200px) {
@@ -262,14 +262,14 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #171214;
     border-width: 0 1px 1px;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #171214;
     margin: 0 -1rem;
   }
 
@@ -295,7 +295,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #0085A1;
+  color: #20A4F3;
 }
 
 .navbar-custom .avatar-container {
@@ -330,6 +330,7 @@ img {
   
     border-radius: 50%;
   
+  background-color:#517664;
   display: block;
 }
 
@@ -364,21 +365,21 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #EAEAEA;
+  background-color: #171214;
   
 }
 
 footer p.text-muted {
-  color: #777777 !important;
+  color: #2d2327 !important;
 }
 
 footer a {
-  color: #404040;
+  color: #388697;
 }
 
 footer a:hover,
 footer a:focus {
-  color: #0085A1;
+  color: #20A4F3;
 }
 
 footer .list-inline {
@@ -444,7 +445,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #20A4F3;
 }
 
 .post-preview .post-title {
@@ -791,8 +792,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #0085A1;
-  background-color: #0085A1;
+  border: 1px solid #20A4F3;
+  background-color: #20A4F3;
 }
 
 /* --- Tables --- */

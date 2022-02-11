@@ -340,6 +340,7 @@ img {
   {% unless site.round-avatar == false %}
     border-radius: 50%;
   {% endunless %}
+  background-color:#517664;
   display: block;
 }
 

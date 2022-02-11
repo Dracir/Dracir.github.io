@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: 
 tools: [Unity, PyxelEdit]
-my-contribution: [art, code, gamedesign, writing, ui]
-team: [Richard Rail]
+my-contribution: [Art, Code, GameDesign, Writing, UI]
+team: 
 visibily: main
 ---
 

@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: An Unconventional Weapon
 tools: [Unity, PyxelEdit]
-my-contribution: [gamedesign, art, code]
-team: [Richard Rail]
+my-contribution: [Art, Code, Gamedesign]
+team: 
 visibily: archive
 ---
 

@@ -40,7 +40,6 @@ layout: base
         </div>
       {% endif %}
 		<ul class="list-unstyled">
-			<li><strong>Project Type: </strong>{{page.project-type}}</li>
 			{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 			<li><strong>Date: </strong>{{page.date | date: date_format}}</li>
 			<li><strong>Event: </strong>{{page.event}}</li>
@@ -54,7 +53,7 @@ layout: base
 
 		<ul class="list-unstyled">
 			<li><strong>Tools: </strong>{{page.tools}}</li>
-			<li><strong>Team: </strong>{{page.team}}</li>
+			<!---<li><strong>Team: </strong>{{page.team}}</li>-->
 			<li><strong>Contribution: </strong>{{page.my-contribution}}</li>
 		</ul>
 		

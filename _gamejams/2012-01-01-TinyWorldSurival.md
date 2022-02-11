@@ -11,8 +11,8 @@ project-type: {{project-type}}
 event: 
 theme: Tiny World
 tools: [Java, Paint.net]
-my-contribution: [sound, gamedesign, art, code]
-team: [Richard Rail]
+my-contribution: [Art, Code, GameDesign, Sound]
+team: 
 visibily: archive
 ---
 
