@@ -3,7 +3,7 @@ layout: gamejam-post
 title: Island Reign
 salePitch: A quick story experience where you manage an island by swiping left or right. Don't empty out any of your resources.
 shortdescription: A game jam where I inspired the design on Reigns. Macanicaly and graphicaly simple but I still had issue on one aspect...
-thumbnail-img: exp/IslandReign1.png
+thumbnail-img: assets/img/gamejams/IslandReign-1.png
 tags: {{tags}}
 date: 2017-08-01
 duration: 48 hours
@@ -23,4 +23,7 @@ I wanted to make a game like Reigns. I didn't really fellow the theme in this ja
 ***
 ## Medias
 
-{{Medias}}
+<div class="row">
+{% include image-card.html FullImagePath='assets/img/gamejams/IslandReign-1.png' ThumbnailPath='assets/img/gamejams/IslandReign-1.png' Alt="Gaining more cards." Caption="Gaining more cards."%}
+{% include image-card.html FullImagePath='assets/img/gamejams/IslandReign-2.png' ThumbnailPath='assets/img/gamejams/IslandReign-2.png' Alt="Is the right card the right choice?" Caption="Is the right card the right choice?"%}
+</div>

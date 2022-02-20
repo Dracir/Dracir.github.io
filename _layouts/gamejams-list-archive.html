@@ -8,7 +8,7 @@ layout: page
 
 <div class="row">
 	{% for game in gamejams reversed %}
-		{% assign thumbnailURL = "gamejams/img/" | absolute_url | append: game.thumbnail-img %}
+		{% assign thumbnailURL = game.thumbnail-img| absolute_url %}
 		{% include card.html 
 			title=game.title url=game.url thumbnail=thumbnailURL description=game.shortdescription
 		%}

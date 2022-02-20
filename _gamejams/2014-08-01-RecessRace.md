@@ -3,7 +3,7 @@ layout: gamejam-post
 title: Recess race
 salePitch: 2D platformer racing game
 shortdescription: Projet of Mysteriosum, a game he wanted to make for a while. My first multi-weeks game.
-thumbnail-img: learn/recessRace1.jpg
+thumbnail-img: assets/img/gamejams/RecessRace-1.jpg
 tags: {{tags}}
 date: 2014-08-01
 duration: 48 hours
@@ -23,4 +23,7 @@ A lot of fun trying to make an ai do complex jump, including needed to go back a
 ***
 ## Medias
 
-{{Medias}}
+<div class="row">
+{% include image-card.html FullImagePath='assets/img/gamejams/RecessRace-1.jpg' ThumbnailPath='assets/img/gamejams/RecessRace-1.jpg' Alt="Running..." Caption="Running..."%}
+{% include image-card.html FullImagePath='assets/img/gamejams/RecessRace-2.jpg' ThumbnailPath='assets/img/gamejams/RecessRace-2.jpg' Alt="More running" Caption="More running"%}
+</div>

@@ -3,7 +3,7 @@ layout: gamejam-post
 title: Pilot Wave
 salePitch: Pilot Wave theory is an unpopular Quantum Mechanics interpretation that says particles and waves coexist. A particle surfs on a wave, and its path is predetermined. Our goal is to test this theory. Bring the particle to the speed of light and see what happens!
 shortdescription: My first game where lot of gfx element are powered with shaders. This started my love of shaders. Also, a really well scoped jam.
-thumbnail-img: exp/PilotWave1.png
+thumbnail-img: assets/img/gamejams/PilotWave-1.png
 tags: {{tags}}
 date: 2017-01-01
 duration: 48 hours
@@ -23,4 +23,8 @@ This jam started my love for shaders. Every element in the center screen is shad
 ***
 ## Medias
 
-{{Medias}}
+<div class="row">
+{% include image-card.html FullImagePath='assets/img/gamejams/PilotWave-2.png' ThumbnailPath='assets/img/gamejams/PilotWave-2.png' Alt="The player on the wave is evading the triangle obstacles. \"Console\" art by me." Caption="The player on the wave is evading the triangle obstacles.  art by me."%}
+{% include image-card.html FullImagePath='assets/img/gamejams/PilotWave-3.png' ThumbnailPath='assets/img/gamejams/PilotWave-3.png' Alt="Death explosion! I used shaders to animate." Caption="Death explosion! I used shaders to animate."%}
+{% include image-card.html FullImagePath='assets/img/gamejams/PilotWave-4.png' ThumbnailPath='assets/img/gamejams/PilotWave-4.png' Alt="Power to teleport (\"Quantum leap\") one step ahead or behind." Caption="Power to teleport (\"Quantum leap\") one step ahead or behind."%}
+</div>

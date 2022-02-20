@@ -3,7 +3,7 @@ layout: gamejam-post
 title: TurnCraft
 salePitch: A Turn-based Tactics game where you can only control which team plays when.
 shortdescription: My first solo jam in a while. My ingame Art is improving.
-thumbnail-img: exp/Turncraft_Thumbnail.png
+thumbnail-img: assets/img/gamejams/Turncraft-Thumbnail.png
 tags: {{tags}}
 date: 2018-08-01
 duration: 48 hours
@@ -23,4 +23,6 @@ I went with a turn based game, a kind of game I never made before. For a solo ga
 ***
 ## Medias
 
-{{Medias}}
+<div class="row">
+{% include image-card.html FullImagePath='assets/img/gamejams/Turncraft-1.gif' ThumbnailPath='assets/img/gamejams/Turncraft-1.gif' Alt="Choosing turns and making it run." Caption="Choosing turns and making it run."%}
+</div>

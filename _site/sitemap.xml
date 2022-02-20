@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://192.168.0.11/gamejams/2012-01-01-TinyWorldSurival/</loc>
+<loc>http://192.168.0.11/gamejams/2012-01-01-TinyWorldSurvival/</loc>
 <lastmod>2012-01-01T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://192.168.0.11/gamejams/2012-08-01-SpawingCreatures/</loc>
+<loc>http://192.168.0.11/gamejams/2012-08-01-SpawningCreatures/</loc>
 <lastmod>2012-08-01T00:00:00-04:00</lastmod>
 </url>
 <url>
@@ -19,10 +19,6 @@
 <url>
 <loc>http://192.168.0.11/gamejams/2014-08-01-RecessRace/</loc>
 <lastmod>2014-08-01T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>http://192.168.0.11/gamejams/2014-10-01-Semicolon/</loc>
-<lastmod>2014-10-01T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://192.168.0.11/gamejams/2014-12-01-EntireScreenDungeon/</loc>
@@ -51,10 +47,6 @@
 <url>
 <loc>http://192.168.0.11/gamejams/2016-01-11-BulgareBalte/</loc>
 <lastmod>2016-01-11T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://192.168.0.11/gamejams/2016-10-01-ProceduralBriqueTexture/</loc>
-<lastmod>2016-10-01T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://192.168.0.11/gamejams/2017-01-01-PilotWave/</loc>
@@ -97,11 +89,11 @@
 <lastmod>2020-01-13T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://192.168.0.11/gamejams/2021-02-01-le-petit-pot-jardin/</loc>
-<lastmod>2021-02-01T00:00:00-05:00</lastmod>
+<loc>http://192.168.0.11/gamejams/2021-03-01-le-petit-pot-jardin/</loc>
+<lastmod>2021-03-01T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://192.168.0.11/gamejams/2021-08-01-duckys-day-dreams/</loc>
+<loc>http://192.168.0.11/gamejams/2021-08-01-gmtk2021/</loc>
 <lastmod>2021-08-01T00:00:00-04:00</lastmod>
 </url>
 <url>
