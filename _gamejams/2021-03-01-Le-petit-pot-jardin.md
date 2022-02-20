@@ -14,12 +14,10 @@ myContribution:
 team: 
 visibily: main
 awards: 
+medias: 
+    - {url: PetitPotJardin-Thumbnail.png, thumbnail: PetitPotJardin-Thumbnail.png, caption: ""}
+
 ---
 Le petit pot is a game where you create your own little garden presentation. You choose what plants to seed and which to let die so others get nutrients. It's a living experiment.
 
 I aimed to take most of the time into making the game look pretty. I feel like I did a ok job for my skill level, but I still need a lot of practice to be at the level I want to be.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/PetitPotJardin-Thumbnail.png' ThumbnailPath='assets/img/gamejams/PetitPotJardin-Thumbnail.png' Alt="" Caption=""%}
-</div>

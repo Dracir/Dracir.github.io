@@ -14,12 +14,9 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: SmelderRichelieu-1.jpg, thumbnail: SmelderRichelieu-1.jpg, caption: "The level breaks down behind the player!"}
+
 ---
 
 
-
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/SmelderRichelieu-1.jpg' ThumbnailPath='assets/img/gamejams/SmelderRichelieu-1.jpg' Alt="The level breaks down behind the player!" Caption="The level breaks down behind the player!"%}
-</div>

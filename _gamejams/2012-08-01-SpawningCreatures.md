@@ -14,14 +14,12 @@ myContribution:
 team: 
 visibily: archive
 awards: ["#16 out of 400 on Theme"]
+medias: 
+    - {url: SpawningCreatures-1.jpg, thumbnail: SpawningCreatures-1.jpg, caption: "Spawning creatures."}
+    - {url: SpawningCreatures-2.jpg, thumbnail: SpawningCreatures-2.jpg, caption: "Big boss battle."}
+    - {url: SpawningCreatures-3.jpg, thumbnail: SpawningCreatures-3.jpg, caption: "The evolution menu."}
+
 ---
 You, the big green thing in the middle must survive by sending your creatures. They are upgraded by mixing them to get better attributs.
 
 A jam with 2 university programmer friend. We were learning machine learning and we were inspired by the genertic algorithm.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/SpawningCreatures-1.jpg' ThumbnailPath='assets/img/gamejams/SpawningCreatures-1.jpg' Alt="Spawning creatures." Caption="Spawning creatures."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/SpawningCreatures-2.jpg' ThumbnailPath='assets/img/gamejams/SpawningCreatures-2.jpg' Alt="Big boss battle." Caption="Big boss battle."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/SpawningCreatures-3.jpg' ThumbnailPath='assets/img/gamejams/SpawningCreatures-3.jpg' Alt="The evolution menu." Caption="The evolution menu."%}
-</div>

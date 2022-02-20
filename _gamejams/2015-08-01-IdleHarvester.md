@@ -14,14 +14,11 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: IdleHarvester-1.jpg, thumbnail: IdleHarvester-1.jpg, caption: "Dig and add flowers to make money."}
+    - {url: IdleHarvester-2.jpg, thumbnail: IdleHarvester-2.jpg, caption: "An island full of flowers, making a lot of money."}
+    - {url: IdleHarvester-3.jpg, thumbnail: IdleHarvester-3.jpg, caption: "Upgrade tree. Each upgrade has currency and node requirements."}
+
 ---
 
 
-
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/IdleHarvester-1.jpg' ThumbnailPath='assets/img/gamejams/IdleHarvester-1.jpg' Alt="Dig and add flowers to make money." Caption="Dig and add flowers to make money."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/IdleHarvester-2.jpg' ThumbnailPath='assets/img/gamejams/IdleHarvester-2.jpg' Alt="An island full of flowers, making a lot of money." Caption="An island full of flowers, making a lot of money."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/IdleHarvester-3.jpg' ThumbnailPath='assets/img/gamejams/IdleHarvester-3.jpg' Alt="Upgrade tree. Each upgrade has currency and node requirements." Caption="Upgrade tree. Each upgrade has currency and node requirements."%}
-</div>

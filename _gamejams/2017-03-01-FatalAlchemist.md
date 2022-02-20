@@ -14,13 +14,11 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: FatalAlchemist-1.png, thumbnail: FatalAlchemist-1.png, caption: "Hand taking an ingredient."}
+    - {url: FatalAlchemist-2.png, thumbnail: FatalAlchemist-2.png, caption: "Looking outside."}
+
 ---
 Combine the right ingredient by picking them up and throwing them in the pot with your htc vive controlers. A book will describe illness and their cures.
 
 This jam was the first time I was the only experienced jammer. I'm used to teach but not while jamming. I had to take control of the game to make sur something was done at the end. Using the HTC vive was a fun but complexe experience, not recommended to learn VR in a jam.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/FatalAlchemist-1.png' ThumbnailPath='assets/img/gamejams/FatalAlchemist-1.png' Alt="Hand taking an ingredient." Caption="Hand taking an ingredient."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/FatalAlchemist-2.png' ThumbnailPath='assets/img/gamejams/FatalAlchemist-2.png' Alt="Looking outside." Caption="Looking outside."%}
-</div>

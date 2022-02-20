@@ -14,12 +14,10 @@ myContribution: I was the artist in the team, drawing the character animations, 
 team: 
 visibily: main
 awards: 
+medias: 
+    - {url: ShovelDward-Thumbnail.png, thumbnail: ShovelDward-Thumbnail.png, caption: ""}
+
 ---
 Your character, a dwarf, has to find the exit of each level with the help of power ups.
 
 We recived a lot of good comments about my pixel art. Which was motivating to keep practicing.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/ShovelDward-Thumbnail.png' ThumbnailPath='assets/img/gamejams/ShovelDward-Thumbnail.png' Alt="" Caption=""%}
-</div>

@@ -14,14 +14,11 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: BulgareBalte-1.png, thumbnail: BulgareBalte-1.png, caption: "My first cinematic image."}
+    - {url: BulgareBalte-2.png, thumbnail: BulgareBalte-2.png, caption: "Top down battle arena."}
+    - {url: BulgareBalte-3.png, thumbnail: BulgareBalte-3.png, caption: "Each spectator randomly clap or wave. They even have their own personality of what they prefect. How to over-do something!"}
+
 ---
 
 
-
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/BulgareBalte-1.png' ThumbnailPath='assets/img/gamejams/BulgareBalte-1.png' Alt="My first cinematic image." Caption="My first cinematic image."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/BulgareBalte-2.png' ThumbnailPath='assets/img/gamejams/BulgareBalte-2.png' Alt="Top down battle arena." Caption="Top down battle arena."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/BulgareBalte-3.png' ThumbnailPath='assets/img/gamejams/BulgareBalte-3.png' Alt="Each spectator randomly clap or wave. They even have their own personality of what they prefect. How to over-do something!" Caption="Each spectator randomly clap or wave. They even have their own personality of what they prefect. How to over-do something!"%}
-</div>

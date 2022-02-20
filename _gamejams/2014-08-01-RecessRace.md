@@ -14,13 +14,11 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: RecessRace-1.jpg, thumbnail: RecessRace-1.jpg, caption: "Running..."}
+    - {url: RecessRace-2.jpg, thumbnail: RecessRace-2.jpg, caption: "More running"}
+
 ---
 Recess Race is a 2D platformer race organised by a suburban elementary school. You play as Fitz, a meek 3rd grader who gets bullied a lot. Race against 3 other students, but don't get caught! They will bully you! Collect as much trash as you can (that's the whole reason the school is doing this anyway) and finish ahead of the group to win the Recess Race!
 
 A lot of fun trying to make an ai do complex jump, including needed to go back and up the make a game.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/RecessRace-1.jpg' ThumbnailPath='assets/img/gamejams/RecessRace-1.jpg' Alt="Running..." Caption="Running..."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/RecessRace-2.jpg' ThumbnailPath='assets/img/gamejams/RecessRace-2.jpg' Alt="More running" Caption="More running"%}
-</div>

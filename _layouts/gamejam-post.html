@@ -8,6 +8,7 @@ layout: base
   <div class="row">
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
 
+      <article role="main" class="blog-post">
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
         {% assign gh_user =  gh_split[0]  %}
@@ -55,12 +56,7 @@ layout: base
 		</ul>
 
 		<hr />
-      <article role="main" class="blog-post">
         {{ content }}
-      </article>
-
-		<hr />
-
 		<ul class="list-unstyled">
 			<li><strong>Tools: </strong>
           {% for tool in page.tools %}
@@ -69,6 +65,19 @@ layout: base
 			<li><strong>Contribution: </strong>{{page.myContribution}}</li>
 		</ul>
 		
+      {% if page.medias.size > 0 %}
+		<hr />
+		<h3> Medias </h3>
+		<div class="row">
+          {% for image in page.medias %}
+			  {% assign imgurl = "assets/img/gamejams/" | append: image.url %}
+			  {% assign thumbnail = "assets/img/gamejams/" | append: image.thumbnail %}
+			  {% include image-card.html FullImagePath=imgurl ThumbnailPath=thumbnail Alt=image.caption Caption=image.caption%}
+          {% endfor %}
+		</div>
+      </article>
+
+      {% endif %}
       {% if page.tags.size > 0 %}
 	  <hr>
         <div class="blog-tags">
@@ -90,6 +99,7 @@ layout: base
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
+		<hr />
 
       <ul class="pagination blog-pager">
         {% if page.previous.url %}

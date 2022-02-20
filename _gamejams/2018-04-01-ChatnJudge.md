@@ -14,13 +14,11 @@ myContribution:
 team: 
 visibily: main
 awards: ["Winner of Jammer's vote"]
+medias: 
+    - {url: ChatnJudge-1.png, thumbnail: ChatnJudge-1.png, caption: "First word"}
+    - {url: ChatnJudge-2.png, thumbnail: ChatnJudge-2.png, caption: "Fill the blank : Where is _____"}
+
 ---
 Use a chat autocomplete texting application to solve crimes. You ask question based on your known vocabulary, witch can extended by asking the right questions.
 
 I made a chat UI in a short time and it came out well. Afterwards, I had to write the narrative, which I still need to pratice.
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/ChatnJudge-1.png' ThumbnailPath='assets/img/gamejams/ChatnJudge-1.png' Alt="First word" Caption="First word"%}
-{% include image-card.html FullImagePath='assets/img/gamejams/ChatnJudge-2.png' ThumbnailPath='assets/img/gamejams/ChatnJudge-2.png' Alt="Fill the blank : Where is _____" Caption="Fill the blank : Where is _____"%}
-</div>

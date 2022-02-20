@@ -14,13 +14,10 @@ myContribution:
 team: 
 visibily: archive
 awards: 
+medias: 
+    - {url: EntireScreenDungeon-1.jpg, thumbnail: EntireScreenDungeon-1.jpg, caption: ""}
+    - {url: EntireScreenDungeon-2.jpg, thumbnail: EntireScreenDungeon-2.jpg, caption: ""}
+
 ---
 
 
-
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/EntireScreenDungeon-1.jpg' ThumbnailPath='assets/img/gamejams/EntireScreenDungeon-1.jpg' Alt="" Caption=""%}
-{% include image-card.html FullImagePath='assets/img/gamejams/EntireScreenDungeon-2.jpg' ThumbnailPath='assets/img/gamejams/EntireScreenDungeon-2.jpg' Alt="" Caption=""%}
-</div>

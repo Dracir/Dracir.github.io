@@ -14,13 +14,10 @@ myContribution:
 team: 
 visibily: archive
 awards: ["Jury's choice at mtl GGJ 2016"]
+medias: 
+    - {url: RelaxAndRain-1.png, thumbnail: RelaxAndRain-1.png, caption: "The mini-game selection screen."}
+    - {url: RelaxAndRain-2.png, thumbnail: RelaxAndRain-2.png, caption: "Mini-game where you have to follow"}
+
 ---
 
 
-
-
-## Medias
-<div class="row">
-{% include image-card.html FullImagePath='assets/img/gamejams/RelaxAndRain-1.png' ThumbnailPath='assets/img/gamejams/RelaxAndRain-1.png' Alt="The mini-game selection screen." Caption="The mini-game selection screen."%}
-{% include image-card.html FullImagePath='assets/img/gamejams/RelaxAndRain-2.png' ThumbnailPath='assets/img/gamejams/RelaxAndRain-2.png' Alt="Mini-game where you have to follow" Caption="Mini-game where you have to follow"%}
-</div>
