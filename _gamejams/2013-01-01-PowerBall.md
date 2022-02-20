@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/PowerBall-1.png
 tags: {{tags}}
 date: 2013-01-01
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: You Only Get One
-tools: [Unity, Paint.net]
-my-contribution: [Code, GameDesign]
+tools: ["Unity", "Paint.net"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
-
 Throw your unique ball and then attract it with your magnet to kill the cubes. You can catch the ball of evade it to dance with it.
 
 A jam where I started to know a little bit more about Unity. We used shapes and particle systems to make the world.
 
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/PowerBall-1.png' ThumbnailPath='assets/img/gamejams/PowerBall-1.png' Alt="Charging the ball throwing power." Caption="Charging the ball throwing power."%}
 {% include image-card.html FullImagePath='assets/img/gamejams/PowerBall-2.jpg' ThumbnailPath='assets/img/gamejams/PowerBall-2.jpg' Alt="Ball coming back and killing all on it's path." Caption="Ball coming back and killing all on it's path."%}

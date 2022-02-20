@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/CodeBlanche-1.jpg
 tags: {{tags}}
 date: 2015-04-01
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: An Unconventional Weapon
-tools: [Unity, PyxelEdit]
-my-contribution: [Art, Code, Gamedesign]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/CodeBlanche-1.jpg' ThumbnailPath='assets/img/gamejams/CodeBlanche-1.jpg' Alt="Starting jail cell." Caption="Starting jail cell."%}
 {% include image-card.html FullImagePath='assets/img/gamejams/CodeBlanche-2.jpg' ThumbnailPath='assets/img/gamejams/CodeBlanche-2.jpg' Alt="Breaking the light bulb gives the item that allows to lockpick." Caption="Breaking the light bulb gives the item that allows to lockpick."%}

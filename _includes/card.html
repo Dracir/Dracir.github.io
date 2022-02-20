@@ -15,6 +15,15 @@
 
 
 	<div class="card-body">
+		{% if include.date %}
+		<strong>📅 Date:</strong> {{include.date | date: "%Y %b" }}<br/>
+		{% endif %}
+		{% if include.awards %}
+			<strong>🏆 Awards: </strong>
+			{% for award in include.awards %}
+				<span class="badge rounded-pill">{{- award -}}</span>
+			{% endfor %}
+		{% endif %}
 		<p class="card-text text-justify">{{include.description}}</p>
 	</div>
 		

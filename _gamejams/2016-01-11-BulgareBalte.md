@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/BulgareBalte-2.png
 tags: {{tags}}
 date: 2016-01-11
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: 
-tools: [Unity, PyxelEdit]
-my-contribution: [Art, Code, GameDesign, Sound]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/BulgareBalte-1.png' ThumbnailPath='assets/img/gamejams/BulgareBalte-1.png' Alt="My first cinematic image." Caption="My first cinematic image."%}
 {% include image-card.html FullImagePath='assets/img/gamejams/BulgareBalte-2.png' ThumbnailPath='assets/img/gamejams/BulgareBalte-2.png' Alt="Top down battle arena." Caption="Top down battle arena."%}

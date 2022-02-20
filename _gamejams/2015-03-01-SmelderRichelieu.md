@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/SmelderRichelieu-1.jpg
 tags: {{tags}}
 date: 2015-03-01
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: 
-tools: [Unity, PyxelEdit]
-my-contribution: [Code, Gamedesign]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/SmelderRichelieu-1.jpg' ThumbnailPath='assets/img/gamejams/SmelderRichelieu-1.jpg' Alt="The level breaks down behind the player!" Caption="The level breaks down behind the player!"%}
 </div>

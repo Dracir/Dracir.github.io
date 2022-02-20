@@ -9,7 +9,7 @@ layout: page
 	{% for game in gamejams reversed %}
 		{% assign thumbnailURL = game.thumbnail-img| absolute_url %}
 		{% include card.html 
-			title=game.title url=game.url thumbnail=thumbnailURL description=game.shortdescription
+			title=game.title url=game.url thumbnail=thumbnailURL description=game.shortdescription date=game.date awards=game.awards
 		%}
 	{% endfor %}
 </div>

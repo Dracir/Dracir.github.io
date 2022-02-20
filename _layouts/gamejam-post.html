@@ -40,21 +40,33 @@ layout: base
         </div>
       {% endif %}
 		<ul class="list-unstyled">
-			{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-			<li><strong>Date: </strong>{{page.date | date: date_format}}</li>
-			<li><strong>Event: </strong>{{page.event}}</li>
-			<li><strong>Theme: </strong>{{page.theme}}</li>
+			{% assign date_format = site.date_format | default: "%B %-d" %}
+			<li><strong>📅 Date: </strong>{{page.date | date: date_format}}</li>
+			<li><strong>🕑 Duration: </strong>{{page.duration}}</li>
+			
+			<li><strong>🎫 Event: </strong>{{page.event}}</li>
+			<li><strong>𝓣 &nbsp;Theme: </strong>{{page.theme}}</li>
+			{% if page.awards %}
+				<li><strong>🏆 Awards: </strong>
+				{% for award in page.awards %}
+					<span class="badge rounded-pill">{{- award -}}</span>
+				{% endfor %}</li>
+			{% endif %}
 		</ul>
 
+		<hr />
       <article role="main" class="blog-post">
         {{ content }}
       </article>
 
+		<hr />
 
 		<ul class="list-unstyled">
-			<li><strong>Tools: </strong>{{page.tools}}</li>
-			<!---<li><strong>Team: </strong>{{page.team}}</li>-->
-			<li><strong>Contribution: </strong>{{page.my-contribution}}</li>
+			<li><strong>Tools: </strong>
+          {% for tool in page.tools %}
+		  	<a href="{{ '/tags' | relative_url }}#{{- tool -}}"><span class="badge rounded-pill">{{- tool -}}</span></a>
+          {% endfor %}</li>
+			<li><strong>Contribution: </strong>{{page.myContribution}}</li>
 		</ul>
 		
       {% if page.tags.size > 0 %}

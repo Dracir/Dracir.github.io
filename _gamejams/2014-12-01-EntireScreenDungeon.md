@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/EntireScreenDungeon-1.jpg
 tags: {{tags}}
 date: 2014-12-01
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: The entire game in one screen
-tools: [Unity, PyxelEdit]
-my-contribution: [Art, Code, GameDesign, Sound]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/EntireScreenDungeon-1.jpg' ThumbnailPath='assets/img/gamejams/EntireScreenDungeon-1.jpg' Alt="" Caption=""%}
 {% include image-card.html FullImagePath='assets/img/gamejams/EntireScreenDungeon-2.jpg' ThumbnailPath='assets/img/gamejams/EntireScreenDungeon-2.jpg' Alt="" Caption=""%}

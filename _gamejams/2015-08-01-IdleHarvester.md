@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/IdleHarvester-1.jpg
 tags: {{tags}}
 date: 2015-08-01
 duration: 48 hours
-project-type: {{project-type}}
 event: 
 theme: Growing
-tools: [Unity, PyxelEdit]
-my-contribution: [Art, Code, GameDesign, Sound]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: 
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/IdleHarvester-1.jpg' ThumbnailPath='assets/img/gamejams/IdleHarvester-1.jpg' Alt="Dig and add flowers to make money." Caption="Dig and add flowers to make money."%}
 {% include image-card.html FullImagePath='assets/img/gamejams/IdleHarvester-2.jpg' ThumbnailPath='assets/img/gamejams/IdleHarvester-2.jpg' Alt="An island full of flowers, making a lot of money." Caption="An island full of flowers, making a lot of money."%}

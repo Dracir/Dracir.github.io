@@ -7,22 +7,19 @@ thumbnail-img: assets/img/gamejams/RelaxAndRain-1.png
 tags: {{tags}}
 date: 2016-01-01
 duration: 48 hours
-project-type: {{project-type}}
 event: Global Game Jam 2016
 theme: Ritual
-tools: [Unity, PyxelEdit]
-my-contribution: [Code, GameDesign, Sound]
+tools: ["Unity", "PyxelEdit"]
+myContribution: 
 team: 
 visibily: archive
+awards: ["Jury's choice at mtl GGJ 2016"]
 ---
 
 
 
 
-
-***
 ## Medias
-
 <div class="row">
 {% include image-card.html FullImagePath='assets/img/gamejams/RelaxAndRain-1.png' ThumbnailPath='assets/img/gamejams/RelaxAndRain-1.png' Alt="The mini-game selection screen." Caption="The mini-game selection screen."%}
 {% include image-card.html FullImagePath='assets/img/gamejams/RelaxAndRain-2.png' ThumbnailPath='assets/img/gamejams/RelaxAndRain-2.png' Alt="Mini-game where you have to follow" Caption="Mini-game where you have to follow"%}
