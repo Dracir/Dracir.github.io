@@ -1,10 +1,6 @@
-<div class="col-md-4 mb-4"> <div class="card h-100 card-light">
 
-	<div class="card-header text-center">
-		<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
-			<h5>{{ include.title | strip_html }}</h5>
-		</a>
-	</div>
+<div class="col-md-{{12 | divided_by: include.cards-per-row}} mb-5"> <div class="card h-100 game-jam-card">
+
 	
 	<!-- Thumbnail -->
 	{% if include.thumbnail %}
@@ -13,21 +9,23 @@
 		</a>
 	{% endif %}
 
-
 	<div class="card-body">
-		{% if include.date %}
-		<strong>📅 Date:</strong> {{include.date | date: "%Y %b" }}<br/>
-		{% endif %}
-		{% if include.awards %}
-			<strong>🏆 Awards: </strong>
-			{% for award in include.awards %}
-				<span class="badge rounded-pill">{{- award -}}</span>
-			{% endfor %}
-		{% endif %}
-		<p class="card-text text-justify">{{include.description}}</p>
-	</div>
-		
-	<div class="card-footer bg-transparent">
-		<a href="{{ include.url | absolute_url }}" class="post-read-more float-right">Read&nbsp;More&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
+		<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
+			<h5>{{ include.title | strip_html }}</h5>
+		</a>
+		<p class="card-text">
+			{% if include.date %}
+			<strong>📅 Date:</strong> {{include.date | date: "%Y %b" }}<br/>
+			{% endif %}
+			{% if include.awards %}
+				<strong>🏆 Awards: </strong>
+				{% for award in include.awards %}
+					<span class="badge rounded-pill">{{- award -}}</span><br />
+				{% endfor %}
+			{% endif %}
+		</p>
+		<p class="card-text text-justify">
+			{{include.description}}
+		</p>
 	</div>
 </div> </div> 

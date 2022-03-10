@@ -7,9 +7,10 @@ layout: page
 
 <div class="row">
 	{% for project in projects reversed %}
-		{% assign thumbnailURL = "projects/img/" | absolute_url | append: project.thumbnail-img %}
+		{% assign thumbnailURL = "assets/img/projects/" | absolute_url | append: project.thumbnail-img %}
 		{% include card.html 
 			title=project.title url=project.url thumbnail=thumbnailURL description=project.shortdescription
+			cards-per-row=4
 		%}
 	{% endfor %}
 </div>

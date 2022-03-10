@@ -10,6 +10,7 @@ layout: page
 		{% assign thumbnailURL = game.thumbnail-img| absolute_url %}
 		{% include card.html 
 			title=game.title url=game.url thumbnail=thumbnailURL description=game.shortdescription date=game.date awards=game.awards
+			cards-per-row=4
 		%}
 	{% endfor %}
 </div>
