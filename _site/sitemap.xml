@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://192.168.0.11/gamejams/2012-01-01-TinyWorldSurvival%20copy/</loc>
-<lastmod>2012-01-01T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>http://192.168.0.11/gamejams/2012-01-01-TinyWorldSurvival/</loc>
 <lastmod>2012-01-01T00:00:00-05:00</lastmod>
 </url>
@@ -89,8 +85,28 @@
 <lastmod>2018-08-01T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://192.168.0.11/gamejams/2019-01-27-The-Coldest-Winter/</loc>
+<lastmod>2019-01-27T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://192.168.0.11/gamejams/2019-03-17-The-Legend-of-the-Chasse-Nite/</loc>
+<lastmod>2019-03-17T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://192.168.0.11/gamejams/2019-08-04-Doctor-Henris-1-Dimensional-Adventure/</loc>
+<lastmod>2019-08-04T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://192.168.0.11/gamejams/2020-01-13-Shovel-dwarf/</loc>
 <lastmod>2020-01-13T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://192.168.0.11/gamejams/2020-02-02-Doctor-Henri-3/</loc>
+<lastmod>2020-02-02T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://192.168.0.11/gamejams/2021-01-31-hype-r-maze/</loc>
+<lastmod>2021-01-31T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://192.168.0.11/gamejams/2021-03-01-Le-petit-pot-jardin/</loc>
