@@ -54,6 +54,14 @@ layout: base
 				{% endfor %}</li>
 			{% endif %}
 		</ul>
+		
+      {% if page.links %}
+          {% for link in page.links %}
+		  	<a href="{{ link.url }}">
+		  		<button type="button" class="btn btn-primary">{{ link.name }}</button>
+			</a>
+          {% endfor %}
+      {% endif %}
 
 		<hr />
         {{ content }}

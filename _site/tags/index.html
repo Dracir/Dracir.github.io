@@ -15,7 +15,7 @@
   <meta name="author" content="Richard Rail">
   
 
-  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
+  <meta name="description" content="{% assign tags = site.gamejams | map: 'tags' | join: ',' | split: ',' | uniq %} {% for tag in tags %} {{ tag }} {% for note in site.gamejams %} {% if note.tags contains tag %} {{ note.title }} {% endif %} {% endfor %} {% endfor %}...">
 
   
 
@@ -79,7 +79,7 @@
   
   <meta property="og:site_name" content="Richard Rail">
   <meta property="og:title" content="Tag Index">
-  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
+  <meta property="og:description" content="{% assign tags = site.gamejams | map: 'tags' | join: ',' | split: ',' | uniq %} {% for tag in tags %} {{ tag }} {% for note in site.gamejams %} {% if note.tags contains tag %} {{ note.title }} {% endif %} {% endfor %} {% endfor %}...">
 
   
   <meta property="og:image" content="http://192.168.0.11/assets/img/avatar-icon.png">
@@ -98,7 +98,7 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Tag Index">
-  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
+  <meta property="twitter:description" content="{% assign tags = site.gamejams | map: 'tags' | join: ',' | split: ',' | uniq %} {% for tag in tags %} {{ tag }} {% for note in site.gamejams %} {% if note.tags contains tag %} {{ note.title }} {% endif %} {% endfor %} {% endfor %}...">
 
   
   <meta name="twitter:image" content="http://192.168.0.11/assets/img/avatar-icon.png">
@@ -173,7 +173,7 @@
        \
         { \
           "title"    : "Init Website", \
-          "category" : "", \
+          "category" : "Unity", \
           "url"      : "/2022-02-11-init/", \
           "date"     : "February 11, 2022" \
         }, \
@@ -285,7 +285,815 @@
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       
 
-      <div id="full-tags-list"></div>
+      
+
+  <h3>Solo</h3>
+  <ul>
+  
+    
+    <li><a href="/gamejams/2012-01-01-TinyWorldSurvival/">Tiny World Survival</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2014-12-01-EntireScreenDungeon/">Entire Screen Dungeon</a></li>
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2015-04-01-CodeBlanche/">Code Blanche</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2015-08-01-IdleHarvester/">Idle Harvester</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2017-08-01-IslandReign/">Island Reign</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-11-01-PollenAction/">Pollen Action</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-08-01-Turn-Craft/">TurnCraft</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-03-01-Le-petit-pot-jardin/">Le Petit Pot Jardin</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-08-14-Poutine64/">Poutine64</a></li>
+    
+  
+  </ul>
+
+  <h3>Team</h3>
+  <ul>
+  
+    
+  
+    
+    <li><a href="/gamejams/2012-08-01-SpawningCreatures/">Spawning Creatures, Evolution of Creatures and Creatures Mayhem</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2013-01-01-PowerBall/">Power Ball - The Cube Apocalypse</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2014-01-26-BoringOldPeople/">Boring old people</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2014-08-01-RecessRace/">Recess race</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2015-02-01-InifiteRunner/">Infinite Runner</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2015-03-01-SmelderRichelieu/">Smelder & Richelieu</a></li>
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2016-01-01-RelaxAndRain/">Relax and Rain</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2016-01-11-BulgareBalte/">Bulgare Balte</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-01-01-PilotWave/">Pilot Wave</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-03-01-FatalAlchemist/">Fatal Alchemist</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-04-01-Orbis/">Orbis</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-05-01-Imps-in-the-City/">Imps in the City</a></li>
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-01-01-WayHome/">Wayhome</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2018-04-01-ChatnJudge/">ChatnJudge</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2018-05-01-bioMech/">bio-Mech Love War</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-11-25-BagelWare/">BagelWare</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2019-01-27-The-Coldest-Winter/">The Coldest Winter</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2019-03-17-The-Legend-of-the-Chasse-Nite/">The Legend of the Chasse-Nite</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2019-08-04-Doctor-Henris-1-Dimensional-Adventure/">Doctor Henri's 1 Dimensional Adventure</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2020-01-13-Shovel-dwarf/">Shovel Dwarf</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2020-02-02-Doctor-Henri-3/">Doctor Henri 3</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2021-01-31-hype-r-maze/">Hype(r) Maze</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-08-01-Gmtk2021/">Red thread of Fate</a></li>
+    
+  
+    
+  
+  </ul>
+
+  <h3>Ludum_Dare</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2013-01-01-PowerBall/">Power Ball - The Cube Apocalypse</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2017-04-01-Orbis/">Orbis</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2017-08-01-IslandReign/">Island Reign</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>Global_Game_Jam</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2014-01-26-BoringOldPeople/">Boring old people</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2016-01-01-RelaxAndRain/">Relax and Rain</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2017-01-01-PilotWave/">Pilot Wave</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2017-03-01-FatalAlchemist/">Fatal Alchemist</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-01-01-WayHome/">Wayhome</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>Other_Game_Jams</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-04-01-ChatnJudge/">ChatnJudge</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2018-05-01-bioMech/">bio-Mech Love War</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2020-01-13-Shovel-dwarf/">Shovel Dwarf</a></li>
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-03-01-Le-petit-pot-jardin/">Le Petit Pot Jardin</a></li>
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-08-14-Poutine64/">Poutine64</a></li>
+    
+  
+  </ul>
+
+  <h3>GMTK Jam</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2018-08-01-Turn-Craft/">TurnCraft</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>GlobalGameJam</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2019-01-27-The-Coldest-Winter/">The Coldest Winter</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2020-02-02-Doctor-Henri-3/">Doctor Henri 3</a></li>
+    
+  
+    
+    <li><a href="/gamejams/2021-01-31-hype-r-maze/">Hype(r) Maze</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>McJams</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2019-03-17-The-Legend-of-the-Chasse-Nite/">The Legend of the Chasse-Nite</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>GMTK</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2019-08-04-Doctor-Henris-1-Dimensional-Adventure/">Doctor Henri's 1 Dimensional Adventure</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  </ul>
+
+  <h3>GTMK</h3>
+  <ul>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <li><a href="/gamejams/2021-08-01-Gmtk2021/">Red thread of Fate</a></li>
+    
+  
+    
+  
+  </ul>
+
+
+<hr />
+
+<a href="#Unity" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;Unity&nbsp;(1)</a><div id="full-tags-list"><h2 id="Unity" class="linked-section">
+        <i class="fas fa-tag" aria-hidden="true"></i>
+        &nbsp;Unity&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a href="/2022-02-11-init/">Init Website</a>
+                <div class="entry-date">
+                    <time datetime="2022-02-11T00:00:00-05:00">2022 February 11</time>
+                </div>
+            </div></div></div>
 
 
       

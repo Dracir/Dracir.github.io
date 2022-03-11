@@ -3,6 +3,20 @@ layout: page
 title: 'Tag Index'
 ---
 
+{% assign tags =  site.gamejams | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+  {% for note in site.gamejams %}
+    {% if note.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+
+<hr />
+
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
 {%- capture site_tags -%}
