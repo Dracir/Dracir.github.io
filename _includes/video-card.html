@@ -1,0 +1,13 @@
+<div class="col-md-6">
+<div class="thumbnail">
+	<video width="320" height="240" controls>
+		<source src="{{ include.FullPath | absolute_url}}" type="video/{{ include.VideoFormat}}">
+		<source src="movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	</video> 
+	<div class="caption">
+		<p>{{ include.Caption | escape}}</p>
+	</div>
+	</a>
+</div>
+</div>
