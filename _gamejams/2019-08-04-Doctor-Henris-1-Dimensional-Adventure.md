@@ -4,10 +4,11 @@ title: Doctor Henri's 1 Dimensional Adventure
 salePitch: 
 shortdescription: What would a game look like in 1 dimension?
 thumbnail-img: assets/img/gamejams/DoctorHenri1-Thumbnail.png
-tags: ["GMTK", "Team"]
 date: 2019-08-04
 duration: 48 hours
 event: GMTK 2019
+eventGroup: ["GMTK"]
+tags: {{tags}}
 theme: Only One
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "GameDesign"]

@@ -133,6 +133,10 @@
 <lastmod>2022-02-11T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://192.168.0.2/2022-03-01-Boby/</loc>
+<lastmod>2022-03-01T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://192.168.0.2/projects/2016-10-01-ProceduralBriqueTexture/</loc>
 <lastmod>2016-10-01T00:00:00-04:00</lastmod>
 </url>
@@ -158,6 +162,9 @@
 <loc>http://192.168.0.2/blog/</loc>
 </url>
 <url>
+<loc>http://192.168.0.2/events/</loc>
+</url>
+<url>
 <loc>http://192.168.0.2/gamejams/</loc>
 </url>
 <url>
@@ -171,5 +178,8 @@
 </url>
 <url>
 <loc>http://192.168.0.2/tags/</loc>
+</url>
+<url>
+<loc>http://192.168.0.2/tools/</loc>
 </url>
 </urlset>

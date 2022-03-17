@@ -4,10 +4,11 @@ title: Boring old people
 salePitch: Experimental dialogue system that changes the world
 shortdescription: First game made with the great Travis Henry Martin. I made an extensible dialogue system for the whole jam. At this point, I started learning that scoping.
 thumbnail-img: assets/img/gamejams/BoringOldPeople-2.png
-tags: ["Global_Game_Jam", "Team"]
 date: 2014-01-26
 duration: 48 hours
 event: GGJ2014
+eventGroup: ["Global Game Jam"]
+tags: {{tags}}
 theme: We don't see things as they are, we see them as we are.
 tools: ["Unity"]
 roles: ["Code", "GameDesign"]

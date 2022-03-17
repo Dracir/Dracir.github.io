@@ -4,10 +4,11 @@ title: TurnCraft
 salePitch: A Turn-based Tactics game where you can only control which team plays when.
 shortdescription: My first solo jam in a while. My ingame Art is improving.
 thumbnail-img: assets/img/gamejams/Turncraft-Thumbnail.png
-tags: ["GMTK Jam", "Solo"]
 date: 2018-08-01
 duration: 48 hours
 event: GMTK jam 2018
+eventGroup: ["GMTK"]
+tags: {{tags}}
 theme: GENRE, but you can’t MECHANIC
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign", "Sound", "UI"]

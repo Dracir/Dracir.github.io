@@ -4,10 +4,11 @@ title: Pilot Wave
 salePitch: Pilot Wave theory is an unpopular Quantum Mechanics interpretation that says particles and waves coexist. A particle surfs on a wave, and its path is predetermined. Our goal is to test this theory. Bring the particle to the speed of light and see what happens!
 shortdescription: My first game where a lot of gfx elements are powered with shaders. This started my love of shaders. Also, a really well scoped jam.
 thumbnail-img: assets/img/gamejams/PilotWave-1.png
-tags: ["Global_Game_Jam", "Team"]
 date: 2017-01-01
 duration: 48 hours
 event: Global Game Jam 2018 (mtljam)
+eventGroup: ["Global Game Jam"]
+tags: {{tags}}
 theme: Wave
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign", "Shader", "Sound"]

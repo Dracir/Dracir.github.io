@@ -4,16 +4,17 @@ title: Pollen Action
 salePitch: 
 shortdescription: For our FRC betabot 2017 team's strategic planning, I made a game to simulate the competition.
 thumbnail-img: assets/img/gamejams/PollenActionThumbnail.png
-tags: ["Solo"]
 date: 2017-11-01
 duration: 
 event: FRC Betabots 2017
+eventGroup: []
+tags: {{tags}}
 theme: 
 tools: ["Unity", "PyxelEdit"]
 roles: ["Code"]
 myContribution: 
 team: 
-visibily: main
+visibily: archive
 awards: 
 medias: 
     - {url: PollenAction-1.gif, thumbnail: PollenAction-1.gif, caption: "2 Players playing."}

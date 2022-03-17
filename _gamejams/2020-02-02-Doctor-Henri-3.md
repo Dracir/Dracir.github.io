@@ -4,10 +4,11 @@ title: Doctor Henri 3
 salePitch: I need your help! I left all the Automated Plant-like Defenses (APD) kinda broken. They need flesh to be repaired! Or else the enemies will reach the Grinder and clog it up!
 shortdescription: Yet another game jam where I coded and did the art.
 thumbnail-img: assets/img/gamejams/DoctorHenri3-Thumbnail.png
-tags: ["GlobalGameJam", "Team"]
 date: 2020-02-02
 duration: 48 hours
 event: Global Game Jam 2020
+eventGroup: ["Global Game Jam"]
+tags: {{tags}}
 theme: Repair
 tools: ["Unity", "PyxelEdit", "Aseprite"]
 roles: ["Art", "Code", "GameDesign", "UI"]

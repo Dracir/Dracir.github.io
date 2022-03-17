@@ -4,10 +4,11 @@ title: BagelWare
 salePitch: 
 shortdescription: When you have 4 programmers what do you do ...
 thumbnail-img: assets/img/gamejams/BagelWare-1.png
-tags: ["Team"]
 date: 2018-11-25
 duration: 48 hours
 event: JamNation 2018
+eventGroup: ["Other Game Jams"]
+tags: {{tags}}
 theme: Diversity // Non-human
 tools: ["Unity", "PyxelEdit"]
 roles: ["Code", "GameDesign", "Sound"]

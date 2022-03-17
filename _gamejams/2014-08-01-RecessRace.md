@@ -4,10 +4,11 @@ title: Recess race
 salePitch: 2D platformer racing game
 shortdescription: Project of Mysteriosum, a game he wanted to make for a while. My first multi-weeks game.
 thumbnail-img: assets/img/gamejams/RecessRace-1.jpg
-tags: ["Team"]
 date: 2014-08-01
 duration: 48 hours
 event: 
+eventGroup: []
+tags: {{tags}}
 theme: 
 tools: ["Unity"]
 roles: ["Code"]

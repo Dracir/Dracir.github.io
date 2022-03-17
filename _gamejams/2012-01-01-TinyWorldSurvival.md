@@ -4,10 +4,11 @@ title: Tiny World Survival
 salePitch: 2d shooting survival game.
 shortdescription: My first ever game.
 thumbnail-img: assets/img/gamejams/TinyWorldSurvival-1.png
-tags: ["Solo"]
 date: 2012-01-01
 duration: 48 hours
 event: 
+eventGroup: []
+tags: {{tags}}
 theme: Tiny World
 tools: ["Java", "Paint.net"]
 roles: ["Art", "Code", "GameDesign", "Sound"]

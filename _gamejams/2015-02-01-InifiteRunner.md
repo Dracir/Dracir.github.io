@@ -4,10 +4,11 @@ title: Infinite Runner
 salePitch: Infinite runner with branching paths.
 shortdescription: Random jam with friends.
 thumbnail-img: assets/img/gamejams/InfiniteRunner-1.png
-tags: ["Team"]
 date: 2015-02-01
 duration: 48 hours
 event: 
+eventGroup: []
+tags: {{tags}}
 theme: 
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign"]

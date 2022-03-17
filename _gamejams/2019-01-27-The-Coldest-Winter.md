@@ -4,10 +4,11 @@ title: The Coldest Winter
 salePitch: 
 shortdescription: The coldest winter is a story that is navigated by multiple players.
 thumbnail-img: assets/img/gamejams/TheColdestWinter-1.png
-tags: ["GlobalGameJam", "Team"]
 date: 2019-01-27
 duration: 48 hours
 event: Global Game Jam 2019
+eventGroup: ["Global Game Jam"]
+tags: {{tags}}
 theme: What home means to you
 tools: ["PyxelEdit", "Aseprite", "Web"]
 roles: ["Art", "Code", "GameDesign", "UI"]

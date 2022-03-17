@@ -4,10 +4,11 @@ title: Imps in the City
 salePitch: 
 shortdescription: Yet another game jam, what can I say, it's been a while!
 thumbnail-img: assets/img/gamejams/ImpsInTheCity-Thumbnail.jpg
-tags: ["Team"]
 date: 2017-05-01
 duration: 48 hours
 event: Concordia Makes Games 2017
+eventGroup: ["Other Game Jams"]
+tags: {{tags}}
 theme: Impostor
 tools: ["Unity"]
 roles: ["Art", "Code", "GameDesign"]

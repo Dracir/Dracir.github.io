@@ -4,10 +4,11 @@ title: ChatnJudge
 salePitch: A short story game where you must ask questions on a chat room system to uncover a major crime. Is the suspect telling the TRUTH or he DAREd to tell a lie?
 shortdescription: A game made only with ui elements and a lot of narrative.
 thumbnail-img: assets/img/gamejams/ChatnJudge-1.png
-tags: ["Other_Game_Jams", "Team"]
 date: 2018-04-01
 duration: 48 hours
 event: MO Jam 2018
+eventGroup: ["Other Game Jams"]
+tags: {{tags}}
 theme: Truth or Dare
 tools: ["Unity"]
 roles: ["Code", "GameDesign", "Sound", "UI", "Writing"]

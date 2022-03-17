@@ -1,0 +1,38 @@
+---
+layout: page
+---
+
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+{% assign allDocs = site.emptyArray %}
+{%- for collect in site.collections -%}
+		{% assign allDocs = allDocs | concat: collect.docs %}
+{%- endfor -%}
+
+{% assign tags_list =  allDocs | map: page.tagMap | compact | sort | join: ','  | split: ',' | uniq %}
+
+{%- for tag in tags_list -%}
+	{% assign tags_count = allDocs | where: page.tagMap, tag | compact | size%}
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{tags_count}})</a>
+{%- endfor -%}
+
+<div id="full-tags-list">
+{%- for tag in tags_list -%}
+	{% assign tag_docs = allDocs | where: page.tagMap, tag | compact | reverse %}
+	{% assign tag_count = tag_docs | size%}
+    <h2 id="{{- tag -}}" class="linked-section">
+        <i class="fas fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- tag -}}&nbsp;({{tag_count}})
+    </h2>
+    <div class="post-list">
+        {%- for post in tag_docs -%}
+            <div class="tag-entry">
+                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endfor -%}
+</div>

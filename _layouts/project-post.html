@@ -13,12 +13,15 @@ layout: base
       </article>
 
 		
-      {% if page.tags.size > 0 %}
+      {% if page.tags.size > 0 or page.eventGroup.size > 0 %}
 	  <hr>
         <div class="blog-tags">
           <span>Tags:</span>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+		  {% for tag in page.eventGroup %}
+            <a href="{{ '/events' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
         </div>
       {% endif %}

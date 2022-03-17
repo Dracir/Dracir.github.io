@@ -3,7 +3,7 @@ layout: project-post
 title: Procedural Brique Texture
 shortdescription: After drawing many brick walls, I wanted to see if I could just make some code to do it.
 thumbnail-img: ProceduralBriqueWall1.png
-tags: {{tags}}
+tags:
 date: 2016-10-01
 ---
 

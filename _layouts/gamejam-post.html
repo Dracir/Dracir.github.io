@@ -9,30 +9,6 @@ layout: base
     <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
 
       <article role="main" class="blog-post">
-      {% if page.gh-repo %}
-        {% assign gh_split =  page.gh-repo | split:'/'  %}
-        {% assign gh_user =  gh_split[0]  %}
-        {% assign gh_repo =  gh_split[1]  %}
-
-        <div id="header-gh-btns">
-		
-          {% if page.gh-badge.size > 0 %}
-            {% for badge in page.gh-badge %}
-              {% case badge %}
-                {% when 'star'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'watch'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'fork'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'follow'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              {% endcase %}
-            {% endfor %}
-          {% endif %}
-        </div>
-      {% endif %}
-
       {% if page.before-content %}
         <div class="before-content">
           {% for file in page.before-content %}
@@ -45,7 +21,9 @@ layout: base
 			<li><strong>📅 Date: </strong>{{page.date | date: date_format}}</li>
 			<li><strong>🕑 Duration: </strong>{{page.duration}}</li>
 			
+      		{% if page.event %}
 			<li><strong>🎫 Event: </strong>{{page.event}}</li>
+			{% endif %}
 			<li><strong>𝓣 &nbsp;Theme: </strong>{{page.theme}}</li>
 			{% if page.awards %}
 				<li><strong>🏆 Awards: </strong>
@@ -65,17 +43,13 @@ layout: base
 
 		<hr />
         {{ content }}
-		<ul class="list-unstyled">
-			<li><strong>Tools: </strong>
-          {% for tool in page.tools %}
-		  	<a href="{{ '/tags' | relative_url }}#{{- tool -}}"><span class="badge rounded-pill">{{- tool -}}</span></a>
-          {% endfor %}</li>
+		{% comment %}
+			TODO Fill contributions
 			<li><strong>Contribution: </strong>{{page.myContribution}}</li>
-		</ul>
+		{% endcomment %}
 		
       {% if page.medias.size > 0 %}
-		<hr />
-		<h3> Medias </h3>
+		<h4> Medias </h4>
 		<div class="row">
           {% for image in page.medias %}
 			  {% assign imgurl = "assets/img/gamejams/" | append: image.url %}
@@ -86,13 +60,19 @@ layout: base
       </article>
 
       {% endif %}
-      {% if page.tags.size > 0 %}
+      {% if page.tags.size > 0 or page.eventGroup.size > 0 %}
 	  <hr>
         <div class="blog-tags">
           <span>Tags:</span>
+          {% for tag in page.eventGroup %}
+            <a href="{{ '/events' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
+          {% for tool in page.tools %}
+		  	<a href="{{ '/tools' | relative_url }}#{{- tool -}}">{{- tool -}}</a>
+          {% endfor %}</li>
         </div>
       {% endif %}
 

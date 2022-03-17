@@ -260,3 +260,4 @@ collections:
   projects:
     output: true
 
+emptyArray: []

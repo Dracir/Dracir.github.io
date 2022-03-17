@@ -4,10 +4,11 @@ title: Smelder & Richelieu
 salePitch: Smelder & Richelieu is the story of two friends who love each other very much. So much so, in fact, that they were magically transported out of their native habitat and into a strange world inside your computer…
 shortdescription: A fun week game jam with friends.
 thumbnail-img: assets/img/gamejams/SmelderRichelieu-1.jpg
-tags: ["Team"]
 date: 2015-03-01
 duration: 1 week
 event: 
+eventGroup: []
+tags: {{tags}}
 theme: No theme
 tools: ["Unity", "PyxelEdit"]
 roles: ["Code", "GameDesign"]
