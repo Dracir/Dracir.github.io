@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Hype(r) Maze
+title: "Hype(r) Maze"
 salePitch: 
 shortdescription: Small contribution in game design at the start and made 2 musics.
 thumbnail-img: assets/img/gamejams/HypeRMaze-1.jpg
@@ -8,7 +8,6 @@ date: 2021-01-31
 duration: 48 hours
 event: Global Game Jam 2021
 eventGroup: ["Global Game Jam"]
-tags: {{tags}}
 theme: Lost and Found
 tools: ["Jummbus"]
 roles: ["Music"]

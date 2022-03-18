@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Idle Harvester
+title: "Idle Harvester"
 salePitch: Idle game about flowers.
 shortdescription: A time where I liked playing idle games...
 thumbnail-img: assets/img/gamejams/IdleHarvester-1.jpg
@@ -8,7 +8,6 @@ date: 2015-08-01
 duration: 48 hours
 event: 
 eventGroup: []
-tags: {{tags}}
 theme: Growing
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign", "Sound"]

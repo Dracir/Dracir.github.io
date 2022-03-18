@@ -91,7 +91,7 @@
   <meta property="og:description" content="Ducky’s Day Dreams is a relaxing city builder where you explore different building styles while following funny and whimsical stories. Strategically place your pieces on the board to build up your points, unilock unique pieces, and create a beautiful piece of art. Beauty is in the eye of the beholder,...">
 
   
-  <meta property="og:image" content="http://192.168.0.2/DuckysDayDream-thumbnail.png">
+  <meta property="og:image" content="http://192.168.0.2/DDD/DuckysDayDream-thumbnail.png">
   
 
   
@@ -112,7 +112,7 @@
   <meta property="twitter:description" content="Ducky’s Day Dreams is a relaxing city builder where you explore different building styles while following funny and whimsical stories. Strategically place your pieces on the board to build up your points, unilock unique pieces, and create a beautiful piece of art. Beauty is in the eye of the beholder,...">
 
   
-  <meta name="twitter:image" content="http://192.168.0.2/DuckysDayDream-thumbnail.png">
+  <meta name="twitter:image" content="http://192.168.0.2/DDD/DuckysDayDream-thumbnail.png">
   
 
   
@@ -181,13 +181,6 @@
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     var searchjson = '[ \
-       \
-        { \
-          "title"    : "zboby", \
-          "category" : "", \
-          "url"      : "/2022-03-01-Boby/", \
-          "date"     : "March  1, 2022" \
-        }, \
        \
         { \
           "title"    : "Init Website", \
@@ -319,6 +312,8 @@
       <article role="main" class="blog-post">
         <p>Ducky’s Day Dreams is a relaxing city builder where you explore different building styles while following funny and whimsical stories. Strategically place your pieces on the board to build up your points, unilock unique pieces, and create a beautiful piece of art. Beauty is in the eye of the beholder, and you’re here to have a great time.</p>
 
+<p>This game is free to <a href="https://dracir.itch.io/duckys-day-dreams">play on Itch.io</a> .</p>
+
 <h2 id="developpement">Developpement</h2>
 <p>Ducky’s is my first full solo game that I worked on for more than a month. This game was made from December 2020 to August 2021. It was mostly an exercise of consistency, habit and discipline. I got tired of the game but kept going for the sake of having something to show for. I now have proof that I can work on a project for a long time. This project is a sort of jump of point for my next project.</p>
 
@@ -330,34 +325,224 @@
 </ol>
 
 <h3 id="prototype-version">Prototype Version</h3>
-<p>The first look of the game from the game jam.</p>
+<p>For Ludum Dare 2020, I made <a href="/gamejams/2020-10-05-Layered-Builder/">Layered Builder</a>. I got good comments and I liked the idea, and scale. I was looking for a full game idea. I decided to make a bigger version based on that game jam.</p>
 
 <h3 id="production-version">Production Version</h3>
 <p>Progress of developpement of the game</p>
+
+<h4 id="a-brave-new-world">A brave new world</h4>
 <div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-	<a href="http://192.168.0.2/assets/img/projects/TilePlacement1.gif" target="_blank">
-	<img src="http://192.168.0.2/assets/img/projects/TilePlacement1.gif" alt="bla" style="width:100%" />
+	<a href="http://192.168.0.2/assets/img/projects/DDD/002-IslandWaterShader.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/002-IslandWaterShader.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Basic tilemap with animation.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/003-Blob.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/003-Blob.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>As I wanted to allow dynamic road and terrain change, I had to implement a blob system.</p>
+	</div>
+	</a>
+</div>
+</div>
+</div>
+
+<h4 id="a-custom-editor">A custom editor</h4>
+<div class="row">
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/012-EditorWow.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/012-EditorWow.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>A custom editor that created the game data scriptable object and links them. In the end, it took a bit more time than what it saved, but if I would have kept adding game assets, it would have been worth it.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/016-Requirement.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/016-Requirement.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Which tile can be placed on which. What are the required placed tiles to gain that tile?</p>
+	</div>
+	</a>
+</div>
+</div>
+</div>
+
+<h4 id="let-there-be-narration">Let there be narration!</h4>
+<div class="row">
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/021-LetterBox.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/021-LetterBox.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>A basic dialogue system with choices. I used Yarn to handle dialogues.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/023-Tuto2.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/023-Tuto2.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>With a little more polish.</p>
+	</div>
+	</a>
+</div>
+</div>
+</div>
+
+<h4 id="a-prettier-world">A Prettier world</h4>
+<div class="row">
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/042-Wierd.png" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/042-Wierd.png" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Start of a color replacement shader with animation to have better grass and reduce tile count.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/043-RotatingGrass.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/043-RotatingGrass.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Some fun with shaders :).</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/044-PrettyGrass.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/044-PrettyGrass.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>End results!</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/TilePlacement1.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/TilePlacement1.gif" alt="" style="width:100%" />
 	<div class="caption">
 		<p>Placing tiles</p>
 	</div>
 	</a>
 </div>
 </div>
+</div>
+
+<h4 id="some-of-the-game-menus">Some of the game menus</h4>
+<div class="row">
 <div class="col-md-6">
 <div class="thumbnail">
-	<a href="http://192.168.0.2/assets/img/projects/TilePlacement2.gif" target="_blank">
-	<img src="http://192.168.0.2/assets/img/projects/TilePlacement2.gif" alt="bla" style="width:100%" />
+	<a href="http://192.168.0.2/assets/img/projects/DDD/025-MainMenuCute.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/025-MainMenuCute.gif" alt="" style="width:100%" />
 	<div class="caption">
-		<p>Tile placement polish</p>
+		<p>Basic buttons.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/029-BetterMask.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/029-BetterMask.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Shaders to make the buttons fancier. Overkill? Yes. Fun? Also Yes. Will animate menu buttons again? No.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/030-Stars.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/030-Stars.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>An animated star background to make it a little bit more alive.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/039-SliderToNumbers.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/039-SliderToNumbers.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>The audio tab of the option menu.</p>
 	</div>
 	</a>
 </div>
 </div>
 </div>
 
-<h2 id="end-product">End product</h2>
+<h4 id="other-stuff">Other stuff</h4>
+<div class="row">
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/013-Variations03.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/013-Variations03.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Placeble tiles have variations.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/046-DisabledRefresh.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/046-DisabledRefresh.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Some UI work, placing stuff adds points but also requires points.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/049-CurrencyExplosion2.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/049-CurrencyExplosion2.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>Some juicy currency gain animation.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/052-BuildHouseLayer.gif" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/052-BuildHouseLayer.gif" alt="" style="width:100%" />
+	<div class="caption">
+		<p>This is how sprites are rigged in Aseprite. I have some importation scripts that link those with Unity&#39;s SpriteRenderers.</p>
+	</div>
+	</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="thumbnail">
+	<a href="http://192.168.0.2/assets/img/projects/DDD/Trello2.png" target="_blank">
+	<img src="http://192.168.0.2/assets/img/projects/DDD/Trello2.png" alt="" style="width:100%" />
+	<div class="caption">
+		<p>My project management at some point of the developpement</p>
+	</div>
+	</a>
+</div>
+</div>
+</div>
 
 
       </article>

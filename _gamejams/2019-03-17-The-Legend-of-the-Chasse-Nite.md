@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: The Legend of the Chasse-Nite
+title: "The Legend of the Chasse-Nite"
 salePitch: 
 shortdescription: One of my first game jam as a full artist.
 thumbnail-img: assets/img/gamejams/TheLegendOfTheChasseNite-1.png
@@ -8,7 +8,6 @@ date: 2019-03-17
 duration: 48 hours
 event: McGame Jam 2019
 eventGroup: ["MC Game Jam"]
-tags: {{tags}}
 theme: Urban Legends
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "GameDesign"]

@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Le Petit Pot Jardin
+title: "Le Petit Pot Jardin"
 salePitch: Le petit pot is a game where you create your own little garden presentation. You choose what plants to seed and which to let die so others get nutrients. It's a living experiment.
 shortdescription: I tried to make a game that looked pretty first, with minimum gameplay...
 thumbnail-img: assets/img/gamejams/PetitPotJardin-Thumbnail.png
@@ -8,7 +8,6 @@ date: 2021-03-01
 duration: 72 hours
 event: Wowie Jam 3.0
 eventGroup: ["Other Game Jams"]
-tags: {{tags}}
 theme: FAILURE IS PROGRESS
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "GameDesign", "UI"]

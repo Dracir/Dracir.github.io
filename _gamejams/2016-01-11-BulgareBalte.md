@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Bulgare Balte
+title: "Bulgare Balte"
 salePitch: Chances are that maybe you possibly should entertain M. Patrick the Well-Washed, otherwise something might uncertainly happen to someone.
 shortdescription: Yet another game jam...
 thumbnail-img: assets/img/gamejams/BulgareBalte-1.png
@@ -8,7 +8,6 @@ date: 2016-01-11
 duration: 48 hours
 event: Just a random Weekend
 eventGroup: []
-tags: {{tags}}
 theme: No theme
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign", "Sound"]

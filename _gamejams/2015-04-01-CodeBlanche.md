@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Code Blanche
+title: "Code Blanche"
 salePitch: Find objects, mix them up and try to escape this prison.
 shortdescription: Even though I don't play point and click, I wanted to make one...
 thumbnail-img: assets/img/gamejams/CodeBlanche-1.jpg
@@ -8,7 +8,6 @@ date: 2015-04-01
 duration: 48 hours
 event: 
 eventGroup: ["Ludum Dare"]
-tags: {{tags}}
 theme: An Unconventional Weapon
 tools: ["Unity", "PyxelEdit"]
 roles: ["Art", "Code", "GameDesign"]

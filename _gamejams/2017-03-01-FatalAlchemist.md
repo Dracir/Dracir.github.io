@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Fatal Alchemist
+title: "Fatal Alchemist"
 salePitch: A silly game where you're the village alchemist, and people come to see you to cure their illnesses. However, you have to figure out their correct ailment and ingredients for the remedy, quickly enough, or the villagers will suffer side effects that cannot be undone.
 shortdescription: A game made in VR with a bigger team of inexperienced jammers.
 thumbnail-img: assets/img/gamejams/FatalAlchemist-1.png
@@ -8,7 +8,6 @@ date: 2017-03-01
 duration: 48 hours
 event: Ottawa Game Jam 2017
 eventGroup: ["Other Game Jams"]
-tags: {{tags}}
 theme: What is done cannot be undone
 tools: ["Unity"]
 roles: ["Code", "GameDesign", "Modeling"]

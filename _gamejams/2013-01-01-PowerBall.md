@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Power Ball - The Cube Apocalypse
+title: "Power Ball - The Cube Apocalypse"
 salePitch: Fast action game with a throwing/pulling ball that kills all.
 shortdescription: My first game jam with a level designer and with unity. I learn how to make elements of the game adjustable for non programmers.
 thumbnail-img: assets/img/gamejams/PowerBall-1.png
@@ -8,7 +8,6 @@ date: 2013-01-01
 duration: 48 hours
 event: 
 eventGroup: ["Ludum Dare"]
-tags: {{tags}}
 theme: You Only Get One
 tools: ["Unity", "Paint.net"]
 roles: ["Code", "GameDesign"]

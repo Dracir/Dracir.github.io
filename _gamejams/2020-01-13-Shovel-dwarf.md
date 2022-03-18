@@ -1,6 +1,6 @@
 ---
 layout: gamejam-post
-title: Shovel Dwarf
+title: "Shovel Dwarf"
 salePitch: Your character, a dwarf, has to find the exit of each level with the help of power ups.
 shortdescription: My second game jam as the artist, though I made the ui for the game.
 thumbnail-img: assets/img/gamejams/ShovelDward-Thumbnail.png
@@ -8,7 +8,6 @@ date: 2020-01-13
 duration: 48 hours
 event: McGame Jam 2020
 eventGroup: ["MC Game Jam"]
-tags: {{tags}}
 theme: Can't go back
 tools: ["Unity", "PyxelEdit", "Aseprite"]
 roles: ["Art", "GameDesign", "UI"]
