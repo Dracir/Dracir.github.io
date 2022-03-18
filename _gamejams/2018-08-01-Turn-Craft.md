@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "TurnCraft"
 salePitch: A Turn-based Tactics game where you can only control which team plays when.
 shortdescription: My first solo jam in a while. My ingame Art is improving.
-thumbnail-img: assets/img/gamejams/Turncraft-Thumbnail.png
+thumbnail-img: assets/img/gamejams/Turncraft-Thumbnail.jpg
 date: 2018-08-01
 duration: 48 hours
 event: GMTK jam 2018
@@ -16,6 +16,8 @@ team:
 visibily: archive
 awards: 
 medias: 
+    - {url: Turncraft-Cinematic1.jpg, thumbnail: Turncraft-Cinematic1.jpg, caption: "Cinematic image when goblins win."}
+    - {url: Turncraft-Cinematic2.jpg, thumbnail: Turncraft-Cinematic2.jpg, caption: "Cinematic image when humains win."}
     - {url: Turncraft-1.gif, thumbnail: Turncraft-1.gif, caption: "Choosing turns and making it run."}
 links: 
     - {name: Itch.io Page, url: https://dracir.itch.io/turncraft}

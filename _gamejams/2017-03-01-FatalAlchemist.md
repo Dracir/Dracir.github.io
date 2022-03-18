@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Fatal Alchemist"
 salePitch: A silly game where you're the village alchemist, and people come to see you to cure their illnesses. However, you have to figure out their correct ailment and ingredients for the remedy, quickly enough, or the villagers will suffer side effects that cannot be undone.
 shortdescription: A game made in VR with a bigger team of inexperienced jammers.
-thumbnail-img: assets/img/gamejams/FatalAlchemist-1.png
+thumbnail-img: assets/img/gamejams/FatalAlchemist-Thumbnail.jpg
 date: 2017-03-01
 duration: 48 hours
 event: Ottawa Game Jam 2017
@@ -16,8 +16,8 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: FatalAlchemist-1.png, thumbnail: FatalAlchemist-1.png, caption: "Hand taking an ingredient."}
-    - {url: FatalAlchemist-2.png, thumbnail: FatalAlchemist-2.png, caption: "Looking outside."}
+    - {url: FatalAlchemist-1.jpg, thumbnail: FatalAlchemist-1.jpg, caption: "Hand taking an ingredient."}
+    - {url: FatalAlchemist-2.jpg, thumbnail: FatalAlchemist-2.jpg, caption: "Looking outside."}
 links: 
 
 ---

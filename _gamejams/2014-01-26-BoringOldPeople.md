@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Boring old people"
 salePitch: Experimental dialogue system that changes the world
 shortdescription: First game made with the great Travis Henry Martin. I made an extensible dialogue system for the whole jam. At this point, I started learning that scoping.
-thumbnail-img: assets/img/gamejams/BoringOldPeople-2.png
+thumbnail-img: assets/img/gamejams/BoringOldPeople-Thumbnail.jpg
 date: 2014-01-26
 duration: 48 hours
 event: GGJ2014
@@ -16,8 +16,8 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: BoringOldPeople-2.png, thumbnail: BoringOldPeople-2.png, caption: "Your choices made it snow."}
-    - {url: BoringOldPeople-1.png, thumbnail: BoringOldPeople-1.png, caption: "Kids jumping on the bed for some reasons."}
+    - {url: BoringOldPeople-2.jpg, thumbnail: BoringOldPeople-2.jpg, caption: "Your choices made it snow."}
+    - {url: BoringOldPeople-1.jpg, thumbnail: BoringOldPeople-1.jpg, caption: "Kids jumping on the bed for some reasons."}
 links: 
     - {name: Global Game Jam Page, url: https://globalgamejam.org/2014/games/boring-old-people}
 

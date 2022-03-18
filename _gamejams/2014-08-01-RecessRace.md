@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Recess race"
 salePitch: 2D platformer racing game
 shortdescription: Project of Mysteriosum, a game he wanted to make for a while. My first multi-weeks game.
-thumbnail-img: assets/img/gamejams/RecessRace-1.jpg
+thumbnail-img: assets/img/gamejams/RecessRace-Thumbnail.jpg
 date: 2014-08-01
 duration: 48 hours
 event: 

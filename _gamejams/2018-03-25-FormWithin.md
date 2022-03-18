@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Form Within"
 salePitch: 
 shortdescription: Yet another game jam.
-thumbnail-img: assets/img/gamejams/WayHome-Thumbnail.png
+thumbnail-img: assets/img/gamejams/FormWithin-Thumbnail.jpg
 date: 2018-03-25
 duration: 48 hours
 event: MC Game Jam 2018
@@ -16,9 +16,9 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: FormWithin-1.png, thumbnail: FormWithin-1.png, caption: "In the first level you have to put the ball in the hole."}
-    - {url: FormWithin-2.png, thumbnail: FormWithin-2.png, caption: ""}
-    - {url: FormWithin-3.png, thumbnail: FormWithin-3.png, caption: ""}
+    - {url: FormWithin-1.jpg, thumbnail: FormWithin-1.jpg, caption: "In the first level you have to put the ball in the hole."}
+    - {url: FormWithin-2.jpg, thumbnail: FormWithin-2.jpg, caption: ""}
+    - {url: FormWithin-3.jpg, thumbnail: FormWithin-3.jpg, caption: ""}
 links: 
     - {name: Itch.io Page, url: https://dracir.itch.io/form-within}
 

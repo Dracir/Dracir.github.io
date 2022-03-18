@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Island Reign"
 salePitch: A quick story experience where you manage an island by swiping left or right. Don't empty out any of your resources.
 shortdescription: A game jam where I inspired the design on Reigns. Mechanically and graphically simple but I still had issues in one aspect...
-thumbnail-img: assets/img/gamejams/IslandReign-1.png
+thumbnail-img: assets/img/gamejams/IslandReign-Thumbnail.png
 date: 2017-08-01
 duration: 48 hours
 event: Ludum Dare 38

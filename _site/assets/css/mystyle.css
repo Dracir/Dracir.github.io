@@ -1,7 +1,8 @@
-.card-img-top {
+.image-thumbnail{
+	position: relative;
     width: 100%;
-    height: 15vw;
-    object-fit: cover;
+    height: 0;
+    padding-bottom: 100%;
 }
 
 .fa-stack{

@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Spawning Creatures, Evolution of Creatures and Creatures Mayhem"
 salePitch: Top-down game with genetic unit creation.
 shortdescription: A jam with 2 university programmer friends.
-thumbnail-img: assets/img/gamejams/SpawningCreatures-1.jpg
+thumbnail-img: assets/img/gamejams/SpawningCreatures-Thumbnail.jpg
 date: 2012-08-01
 duration: 48 hours
 event: 

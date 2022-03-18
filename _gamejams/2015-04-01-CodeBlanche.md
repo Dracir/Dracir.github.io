@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Code Blanche"
 salePitch: Find objects, mix them up and try to escape this prison.
 shortdescription: Even though I don't play point and click, I wanted to make one...
-thumbnail-img: assets/img/gamejams/CodeBlanche-1.jpg
+thumbnail-img: assets/img/gamejams/CodeBlanche-Thumbnail.jpg
 date: 2015-04-01
 duration: 48 hours
 event: 

@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Tiny World Survival"
 salePitch: 2d shooting survival game.
 shortdescription: My first ever game.
-thumbnail-img: assets/img/gamejams/TinyWorldSurvival-1.png
+thumbnail-img: assets/img/gamejams/TinyWorldSurvival-Thumbnail.jpg
 date: 2012-01-01
 duration: 48 hours
 event: 
@@ -16,8 +16,8 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: TinyWorldSurvival-1.png, thumbnail: TinyWorldSurvival-1.png, caption: "Slope level, enemis are going down."}
-    - {url: TinyWorldSurvival-2.png, thumbnail: TinyWorldSurvival-2.png, caption: "Mountain level (with random highs), with rain particles."}
+    - {url: TinyWorldSurvival-1.jpg, thumbnail: TinyWorldSurvival-1.jpg, caption: "Slope level, enemis are going down."}
+    - {url: TinyWorldSurvival-2.jpg, thumbnail: TinyWorldSurvival-2.jpg, caption: "Mountain level (with random highs), with rain particles."}
 links: 
 
 ---

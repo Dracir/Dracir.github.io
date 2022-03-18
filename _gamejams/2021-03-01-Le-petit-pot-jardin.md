@@ -18,6 +18,7 @@ awards:
 medias: 
     - {url: PetitPotJardin-Thumbnail.png, thumbnail: PetitPotJardin-Thumbnail.png, caption: "A little bit of everything."}
     - {url: PetitPotJardin-2.png, thumbnail: PetitPotJardin-2.png, caption: "A player's screenshot of his creation."}
+    - {url: PetitPotJardin-3.gif, thumbnail: PetitPotJardin-3.gif, caption: "The gameplay."}
 links: 
     - {name: Itch.io Page, url: https://dracir.itch.io/le-petit-pot-jardin}
 

@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Entire Screen Dungeon"
 salePitch: Dungeon adventure where your map section take half the screen and the rest of the level take what's left.
 shortdescription: How can you make a game that fits in one screen?
-thumbnail-img: assets/img/gamejams/EntireScreenDungeon-1.jpg
+thumbnail-img: assets/img/gamejams/EntireScreenDungeon-Thumbnail.jpg
 date: 2014-12-01
 duration: 48 hours
 event: 

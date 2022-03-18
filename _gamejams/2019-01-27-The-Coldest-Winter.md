@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "The Coldest Winter"
 salePitch: 
 shortdescription: The coldest winter is a story that is navigated by multiple players.
-thumbnail-img: assets/img/gamejams/TheColdestWinter-1.png
+thumbnail-img: assets/img/gamejams/TheColdestWinter-Thumbnail.jpg
 date: 2019-01-27
 duration: 48 hours
 event: Global Game Jam 2019
@@ -16,7 +16,7 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: TheColdestWinter-1.png, thumbnail: TheColdestWinter-1.png, caption: "I wish we had better screenshots!"}
+    - {url: TheColdestWinter-1.jpg, thumbnail: TheColdestWinter-1.jpg, caption: "I wish we had better screenshots!"}
 links: 
     - {name: Global Game Jam Page, url: https://globalgamejam.org/2019/games/coldest-winter}
 

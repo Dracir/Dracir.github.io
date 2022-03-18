@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "BagelWare"
 salePitch: 
 shortdescription: When you have 4 programmers what do you do ...
-thumbnail-img: assets/img/gamejams/BagelWare-1.png
+thumbnail-img: assets/img/gamejams/BagelWare-Thumbnail.jpg
 date: 2018-11-25
 duration: 48 hours
 event: JamNation 2018
@@ -16,11 +16,11 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: BagelWare-1.png, thumbnail: BagelWare-1.png, caption: ""}
-    - {url: BagelWare-2.png, thumbnail: BagelWare-2.png, caption: ""}
-    - {url: BagelWare-3.png, thumbnail: BagelWare-3.png, caption: ""}
-    - {url: BagelWare-4.png, thumbnail: BagelWare-4.png, caption: ""}
-    - {url: BagelWare-5.png, thumbnail: BagelWare-5.png, caption: ""}
+    - {url: BagelWare-1.jpg, thumbnail: BagelWare-1.jpg, caption: ""}
+    - {url: BagelWare-2.jpg, thumbnail: BagelWare-2.jpg, caption: ""}
+    - {url: BagelWare-3.jpg, thumbnail: BagelWare-3.jpg, caption: ""}
+    - {url: BagelWare-4.jpg, thumbnail: BagelWare-4.jpg, caption: ""}
+    - {url: BagelWare-5.jpg, thumbnail: BagelWare-5.jpg, caption: ""}
 links: 
     - {name: Itch.io Page, url: https://brovershield.itch.io/ppouch-bagelware}
 

@@ -4,9 +4,11 @@
 	
 	<!-- Thumbnail -->
 	{% if include.thumbnail %}
-		<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
-			<img src="{{ include.thumbnail}}" class="card-img-top thumbnail ratio-16x9" alt="Post thumbnail">
-		</a>
+		<div class="image-thumbnail">
+			<a href="{{ include.url | absolute_url }}" aria-label="Thumbnail">
+				<img src="{{ include.thumbnail}}" class="card-img-top thumbnail ratio-16x9" alt="Post thumbnail">
+			</a>
+		</div>
 	{% endif %}
 
 	<div class="card-body">

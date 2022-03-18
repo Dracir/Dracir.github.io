@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Infinite Runner"
 salePitch: Infinite runner with branching paths.
 shortdescription: Random jam with friends.
-thumbnail-img: assets/img/gamejams/InfiniteRunner-1.png
+thumbnail-img: assets/img/gamejams/InfiniteRunner-Thumbnail.png
 date: 2015-02-01
 duration: 48 hours
 event: 

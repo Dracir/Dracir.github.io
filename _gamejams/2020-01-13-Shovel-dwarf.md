@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Shovel Dwarf"
 salePitch: Your character, a dwarf, has to find the exit of each level with the help of power ups.
 shortdescription: My second game jam as the artist, though I made the ui for the game.
-thumbnail-img: assets/img/gamejams/ShovelDward-Thumbnail.png
+thumbnail-img: assets/img/gamejams/ShovelDwarf-Thumbnail.png
 date: 2020-01-13
 duration: 48 hours
 event: McGame Jam 2020
@@ -16,9 +16,10 @@ team:
 visibily: main
 awards: 
 medias: 
-    - {url: ShovelDward-Thumbnail.png, thumbnail: ShovelDward-Thumbnail.png, caption: ""}
+    - {url: ShovelDwarf-1.gif, thumbnail: ShovelDwarf-1.gif, caption: "You can pick up block but you most put them back."}
+    - {url: ShovelDwarf-2.gif, thumbnail: ShovelDwarf-2.gif, caption: "Gameplay with UI. "}
 links: 
-    - {name: Itch.io Page, url: }
+    - {name: Itch.io Page, url: https://dracir.itch.io/shoveldwarf}
 
 ---
 Your character, a dwarf, has to find the exit of each level with the help of power ups.

@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "The Legend of the Chasse-Nite"
 salePitch: 
 shortdescription: One of my first game jam as a full artist.
-thumbnail-img: assets/img/gamejams/TheLegendOfTheChasseNite-1.png
+thumbnail-img: assets/img/gamejams/TheLegendOfTheChasseNite-Thumbnail.jpg
 date: 2019-03-17
 duration: 48 hours
 event: McGame Jam 2019
@@ -16,8 +16,8 @@ team:
 visibily: archive
 awards: 
 medias: 
-    - {url: TheLegendOfTheChasseNite-1.png, thumbnail: TheLegendOfTheChasseNite-1.png, caption: "The story..."}
-    - {url: TheLegendOfTheChasseNite-2.png, thumbnail: TheLegendOfTheChasseNite-2.png, caption: "I made the backgrounds"}
+    - {url: TheLegendOfTheChasseNite-1.jpg, thumbnail: TheLegendOfTheChasseNite-1.jpg, caption: "The story..."}
+    - {url: TheLegendOfTheChasseNite-2.jpg, thumbnail: TheLegendOfTheChasseNite-2.jpg, caption: "I made the backgrounds"}
 links: 
     - {name: itch.io Page, url: https://dracir.itch.io/chasse-nite}
 

@@ -16,8 +16,8 @@ team:
 visibily: archives
 awards: 
 medias: 
-    - {url: HypeRMaze-2.png, thumbnail: HypeRMaze-2.png, caption: "Quantic thing"}
-    - {url: HypeRMaze-3.png, thumbnail: HypeRMaze-3.png, caption: "The ambiance is dark"}
+    - {url: HypeRMaze-2.jpg, thumbnail: HypeRMaze-2.jpg, caption: "Quantic thing"}
+    - {url: HypeRMaze-3.jpg, thumbnail: HypeRMaze-3.jpg, caption: "The ambiance is dark"}
 links: 
     - {name: Global Game Jam Page, url: https://globalgamejam.org/2021/games/hyper-maze-8}
 

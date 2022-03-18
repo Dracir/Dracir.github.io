@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Pollen Action"
 salePitch: 
 shortdescription: For our FRC betabot 2017 team's strategic planning, I made a game to simulate the competition.
-thumbnail-img: assets/img/gamejams/PollenActionThumbnail.png
+thumbnail-img: assets/img/gamejams/PollenActionThumbnail.jpg
 date: 2017-11-01
 duration: 
 event: FRC Betabots 2017

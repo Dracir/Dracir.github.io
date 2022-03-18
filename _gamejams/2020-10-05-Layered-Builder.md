@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "Layered Builder: A calm city builder"
 salePitch: 
 shortdescription: A game jame higly inspired by the game Islanders.
-thumbnail-img: assets/img/gamejams/LayeredBuilder-Thumbnail.jpg
+thumbnail-img: assets/img/gamejams/LayeredBuilder-Thumbnail.png
 date: 2020-10-05
 duration: 72 hours
 event: Ludum Dare 2020

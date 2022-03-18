@@ -3,7 +3,7 @@ layout: gamejam-post
 title: "ChatnJudge"
 salePitch: A short story game where you must ask questions on a chat room system to uncover a major crime. Is the suspect telling the TRUTH or he DAREd to tell a lie?
 shortdescription: A game made only with ui elements and a lot of narrative.
-thumbnail-img: assets/img/gamejams/ChatnJudge-1.png
+thumbnail-img: assets/img/gamejams/ChatnJudge-Thumbnail.jpg
 date: 2018-04-01
 duration: 48 hours
 event: MO Jam 2018
@@ -16,8 +16,8 @@ team:
 visibily: main
 awards: ["Winner of Jammer's vote"]
 medias: 
-    - {url: ChatnJudge-1.png, thumbnail: ChatnJudge-1.png, caption: "First word"}
-    - {url: ChatnJudge-2.png, thumbnail: ChatnJudge-2.png, caption: "Fill the blank : Where is _____"}
+    - {url: ChatnJudge-1.jpg, thumbnail: ChatnJudge-1.jpg, caption: "First word"}
+    - {url: ChatnJudge-2.jpg, thumbnail: ChatnJudge-2.jpg, caption: "Fill the blank : Where is _____"}
 links: 
     - {name: Itch.io Page, url: https://dracir.itch.io/chatn-}
 
